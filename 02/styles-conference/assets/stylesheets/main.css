@@ -210,10 +210,13 @@ a {
 /* PRIMARY FOOTER */
 
 .primary-footer {
+    color: #648880;
+    font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
 }
 
 .primary-footer small {
     float: left;
+    font-weight: 400;
 }
