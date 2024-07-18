@@ -193,6 +193,10 @@ a {
     font-size: 24px;
 }
 
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
+
 /* PRIMARY HEADER */
 
 .logo {
