@@ -64,6 +64,23 @@ table {
     width: 960px;
 }
 
+/* CLEARFIX */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    zoom: 1;
+}
+
 /* TYPOGRAPHY */
 
 h1, h3, h4, h5, p {
