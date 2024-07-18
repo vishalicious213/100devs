@@ -168,6 +168,16 @@ cite, em {
     padding: 10px 30px;
 }
 
+/* LINKS */
+
+a:hover {
+    color: #a9b2b9;
+}
+
+a {
+    color: #648880;
+}
+
 /* HOME */
 
 .hero {
