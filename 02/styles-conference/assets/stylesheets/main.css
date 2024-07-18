@@ -145,6 +145,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -223,6 +224,8 @@ p a {
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 /* PRIMARY FOOTER */
