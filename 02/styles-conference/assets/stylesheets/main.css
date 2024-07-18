@@ -114,6 +114,14 @@ body {
     zoom: 1;
 }
 
+/* ROWS */
+
+.row {
+    background: #fff;
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+}
+
 /* TYPOGRAPHY */
 
 h1, h3, h4, h5, p {
