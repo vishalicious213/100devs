@@ -198,6 +198,7 @@ p a {
 
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
 
 .teaser a:hover h3 {
@@ -207,15 +208,14 @@ p a {
 /* PRIMARY HEADER */
 
 .logo {
-    float: left;
-}
-
-.logo {
     border-top: 4px solid #648880;
     float: left;
     font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
     line-height: 44px;
     padding: 40px 0 22px 0;
+    text-transform: uppercase;
 }
 
 .tagline {
