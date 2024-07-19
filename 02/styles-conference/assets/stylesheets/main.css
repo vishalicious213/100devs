@@ -315,6 +315,10 @@ p a {
 
 /* SPEAKERS */
 
+.speaker {
+    margin-bottom: 44px;
+}
+
 .speaker-info {
     border: 1px solid #dfe2e5;
     border-radius: 5px;
