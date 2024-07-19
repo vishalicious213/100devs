@@ -177,6 +177,17 @@ cite, em {
     font-style: italic;
 }
 
+/* LEADS */
+
+.lead {
+    text-align: center;
+}
+
+.lead p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
 /* BUTTONS */
 
 .btn {
