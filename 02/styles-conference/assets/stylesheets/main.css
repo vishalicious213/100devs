@@ -333,3 +333,10 @@ p a {
     padding: 22px 0;
     text-align: center;
 }
+
+.speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
