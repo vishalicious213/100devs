@@ -388,3 +388,8 @@ textarea {
     margin: 5px 0 27px 0;
     padding: 5px 8px;
 }
+
+.register-group input,
+.register-group textarea {
+    width: 100%;
+}
