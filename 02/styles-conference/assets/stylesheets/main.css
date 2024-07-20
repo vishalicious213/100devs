@@ -371,3 +371,9 @@ select,
 textarea {
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.register-group label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+}
