@@ -393,3 +393,12 @@ textarea {
 .register-group textarea {
     width: 100%;
 }
+
+.register-group select {
+    height: 34px;
+    width: 60px;
+}
+
+.register-group textarea {
+    height: 78px;
+}
