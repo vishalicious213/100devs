@@ -440,3 +440,12 @@ th {
 td {
     width: 40%;
 }
+
+thead {
+    line-height: 44px;
+}
+
+thead th {
+    color: #648880;
+    font-size: 24px;
+}
