@@ -31,6 +31,11 @@ li {
 }
 
 a {
+    color: #4dc843;
     text-decoration: none;
     
+}
+
+ul > span {
+    color: #6f8490;
 }
