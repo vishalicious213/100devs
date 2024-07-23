@@ -17,3 +17,9 @@ h1 {
     text-align: center;
     font-family: "Source Sans Pro", "Helvetica", sans-serif;
 }
+
+footer {
+    background-color: brown;
+    height: 300px;
+    width: 70%;
+}
