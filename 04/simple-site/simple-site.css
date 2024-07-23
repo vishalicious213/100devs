@@ -39,3 +39,7 @@ a {
 ul > span {
     color: #6f8490;
 }
+
+header li:first-child > a:first-child {
+    color: white;
+}
