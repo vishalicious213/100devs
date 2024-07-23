@@ -10,3 +10,10 @@ section {
     background-color: plum;
     border: 5px solid gold;
 }
+
+h1 {
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+    font-family: "Source Sans Pro", "Helvetica", sans-serif;
+}
