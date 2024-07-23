@@ -1,13 +1,15 @@
 body {
     padding: 50px;
-    margin: 30px;
+    margin: 30px auto;
     border: 4px solid #4dc843;
     background-color: #87ceea;
     color: white;
+    max-width: 540px;
 }
 
 h1 {
     text-align: center;
+    font-style: italic;
 }
 
 main img {
