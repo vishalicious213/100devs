@@ -1,7 +1,52 @@
 /* Please Make only Rhino and Zebra Blue */
 
+/* .top {
+    color: blue;
+} */
+
+#rhino, #zebra { /* selected via ID because adding another h2 could break the instruction */
+    color: blue;
+}
+
 /* Please Make only Hufflepuff Gold */
+
+/* .middle article > h2 + h2 {
+    color: gold;
+} */
+
+#bestHouse { /* it has an ID */
+    color: gold;
+}
 
 /* Please select Duck with the highest level of specificity possible */
 
+/* .areDucksDinosaurs > h2 {
+    color: red;
+} */
+
+/* h2 with both classes */
+/* h2.likesToQuack.fight1Or100 { 
+    color: red;
+} */
+
+/* even more specific */
+/* article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 { 
+    color: red;
+} */
+
+/* ridiculous */
+/* h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 { 
+    color: red;
+} */
+
+/* just don't do it like this */
+html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 { 
+    color: red;
+}
+
+
 /* Please select Rhino with the highest level of specificity possible */
+
+.top > #rhino {
+    color: green;
+}
