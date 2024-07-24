@@ -17,3 +17,8 @@
 }
 
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
+
+#chunkyMilk p.passTheRemote.turtles {
+    color: yellow;
+    background-color: black;
+}
