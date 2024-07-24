@@ -1,0 +1,15 @@
+body * {
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+}
+
+section {
+    float: left;
+    width: 25%;
+}
+
+header, footer {
+    clear: both;
+}
