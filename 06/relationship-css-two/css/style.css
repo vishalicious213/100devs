@@ -8,6 +8,11 @@ section h2 {
 
 /* Please make only "twitter" red and 20px */
 
+aside a {
+    color: red;
+    font-size: 20px;
+}
+
 /* Please make "Really hot" purple & "Like WILD hot" larger and blue  */
 
 /* Please make only bob and pizza green */
