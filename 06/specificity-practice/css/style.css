@@ -12,8 +12,12 @@
 
 /* Please select "Hello, world!" with the highest level of specificity possible*/
 
-#rugratsWildThornberrysBestCrossOverAllTime h2 {
+/* #rugratsWildThornberrysBestCrossOverAllTime h2 {
     color: green;
+} */
+
+html body header.top + #rugratsWildThornberrysBestCrossOverAllTime h2 {
+    color: green !important;
 }
 
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
