@@ -23,3 +23,9 @@ aside {
 }
 
 /* Please make the aside paragraph have white text, 18px, and a red underline */
+
+aside p {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
