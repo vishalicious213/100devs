@@ -16,4 +16,10 @@ section {
 
 /* Please make the aside have a height of 300px, a thin red border, and a teal background  */
 
+aside {
+    height: 300px;
+    border: 1px solid red;
+    background-color: teal;
+}
+
 /* Please make the aside paragraph have white text, 18px, and a red underline */
