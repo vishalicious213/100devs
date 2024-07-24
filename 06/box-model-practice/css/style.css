@@ -17,4 +17,10 @@ h2 {
 
 /* Please make the spans have a thin black border, a little padding, and blue */
 
+span {
+    border: 1px solid black;
+    padding: 0 10px;
+    color: blue;
+}
+
 /* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
