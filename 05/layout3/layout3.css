@@ -7,7 +7,12 @@ body * {
 
 section {
     float: left;
-    width: 25%;
+    width: 20%;
+    height: 100px;
+}
+
+.wide {
+    width: 40%
 }
 
 header, footer {
