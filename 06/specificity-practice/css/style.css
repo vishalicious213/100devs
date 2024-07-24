@@ -1,5 +1,9 @@
 /* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere eles in the document. */
 
+#rugratsWildThornberrysBestCrossOverAllTime .extraExtraReadAllAboutIt h3 {
+    color: blue;
+}
+
 /* Please make "I like turtles." red */
 
 /* Please select "Hello, world!" with the highest level of specificity possible*/
