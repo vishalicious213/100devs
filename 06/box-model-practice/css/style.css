@@ -24,3 +24,10 @@ span {
 }
 
 /* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
+
+section {
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid purple;
+}
