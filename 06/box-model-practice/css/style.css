@@ -2,24 +2,24 @@
 
 h1 {
     font-size: 30px;
-    padding-left: 5px;
-    border: 1px solid red;
+    padding-left: 30px;
+    border: 3px solid red;
 }
 
 /* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
 
 h2 {
     font-size: 25px;
-    padding: 10px 0;
-    border: 10px solid gold;
-    margin: 10px 0;
+    padding: 50px 0;
+    border: 20px solid gold;
+    margin: 20px 0;
 }
 
 /* Please make the spans have a thin black border, a little padding, and blue */
 
 span {
-    border: 1px solid black;
-    padding: 0 10px;
+    border: 2px solid black;
+    padding: 5px;
     color: blue;
 }
 
@@ -28,6 +28,6 @@ span {
 section {
     width: 25%;
     height: 200px;
-    text-align: center;
-    border: 1px solid purple;
+    margin: 0 auto;
+    border: 2px solid purple;
 }
