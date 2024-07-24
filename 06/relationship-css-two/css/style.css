@@ -15,4 +15,13 @@ aside a {
 
 /* Please make "Really hot" purple & "Like WILD hot" larger and blue  */
 
+article h2 {
+    color: purple;
+}
+
+article h2 + h2 {
+    color: blue;
+    font-size: 30px;
+}
+
 /* Please make only bob and pizza green */
