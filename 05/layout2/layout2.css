@@ -1,26 +1,15 @@
 body * {
     box-sizing: border-box;
     text-align: center;
-}
-
-section div {
-    float: left;
-    width: 33.3%;
-}
-
-section + section div {
-    width: 50%;
-}
-
-div {
-    height: 100px;
-}
-
-header, section, footer {
-    clear: both;
+    border: 1px solid black;
     height: 50px;
 }
 
-header, footer, div {
-    border: 1px solid black;
+section + section{
+    width: 50%;
+    float: left;
+}
+
+header, footer {
+    clear: both;
 }
