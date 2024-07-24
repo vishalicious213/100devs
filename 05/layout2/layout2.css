@@ -2,14 +2,25 @@ body * {
     box-sizing: border-box;
     text-align: center;
     border: 1px solid black;
-    height: 50px;
+}
+
+section {
+    height: 75px;
 }
 
 section + section{
-    width: 50%;
     float: left;
+}
+
+.second {
+    width: 40%;
+}
+
+.third {
+    width: 60%;
 }
 
 header, footer {
     clear: both;
+    height: 50px;
 }
