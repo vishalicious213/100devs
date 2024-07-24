@@ -8,6 +8,13 @@ h1 {
 
 /* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
 
+h2 {
+    font-size: 25px;
+    padding: 10px 0;
+    border: 10px solid gold;
+    margin: 10px 0;
+}
+
 /* Please make the spans have a thin black border, a little padding, and blue */
 
 /* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
