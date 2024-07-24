@@ -1,6 +1,10 @@
 /* NO classes or IDs */
 /* Please Make only World and Zebra Blue */
 
+section > h2 {
+    color: blue;
+}
+
 /* Please Make only Zebra Purple */
 
 /* Please Make only Hufflepuff Gold */
