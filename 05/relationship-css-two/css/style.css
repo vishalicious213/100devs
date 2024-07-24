@@ -7,6 +7,10 @@ section > h2 {
 
 /* Please Make only Zebra Purple */
 
+section > h2 + h2 {
+    color: purple;
+}
+
 /* Please Make only Hufflepuff Gold */
 
 /* Please keep Hufflepuff Gold and make ONLY Unicorn Gray  */
