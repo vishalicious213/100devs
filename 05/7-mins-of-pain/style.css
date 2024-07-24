@@ -1,0 +1,9 @@
+body * {
+    outline: 1px solid red;
+    text-align: center;
+}
+
+section {
+    width: 33.3333%;
+    float: left;
+}
