@@ -41,9 +41,8 @@
 
 /* just don't do it like this */
 html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 { 
-    color: red;
+    color: red !important;
 }
-
 
 /* Please select Rhino with the highest level of specificity possible */
 
