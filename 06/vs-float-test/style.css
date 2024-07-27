@@ -1,3 +1,13 @@
+body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.box-set,
+.box {
+    border-radius: 6px;
+}
+
 .box-set {
     background: #eaeaed;
 }
@@ -6,5 +16,7 @@
     background: #2db34a;
     float: left;
     margin: 1.858736059%;
+    padding: 20px 0;
+    text-align: center;
     width: 29.615861214%;
 }
