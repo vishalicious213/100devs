@@ -10,7 +10,18 @@ body {
 
 .box-set {
     background: #eaeaed;
-    overflow: auto;
+    /* overflow: auto; */
+    *zoom: 1;
+}
+
+.box-set:before,
+.box-set:after {
+    content: "";
+    display: table;
+}
+
+.box-set:after {
+    clear: both;
 }
 
 .box {
