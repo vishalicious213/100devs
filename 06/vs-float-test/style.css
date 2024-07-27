@@ -10,6 +10,7 @@ body {
 
 .box-set {
     background: #eaeaed;
+    overflow: auto;
 }
 
 .box {
@@ -21,6 +22,6 @@ body {
     width: 29.615861214%;
 }
 
-.clear {
+/* .clear {
     clear: both;
-}
+} */
