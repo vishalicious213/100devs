@@ -20,3 +20,7 @@ body {
     text-align: center;
     width: 29.615861214%;
 }
+
+.clear {
+    clear: both;
+}
