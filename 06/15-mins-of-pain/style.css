@@ -29,14 +29,22 @@ footer {
 
 /* laptop */
 @media screen and (min-width: 1024px) {
-    section {
-        background: red;
-    }   
+    .section-1, .section-2 {
+        float: left;
+        width: 66.66%;
+    }
+
+    .section-3 {
+        float: right;
+        height: 600px;
+        position: relative;
+        top: -300px;
+    }
 }
 
 /* desktop */
 @media screen and (min-width: 1440px) {
     section {
         background: blue;
-    }   
+    }
 }
