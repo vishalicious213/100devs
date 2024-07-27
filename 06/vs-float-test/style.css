@@ -11,10 +11,10 @@ body {
 .box-set {
     background: #eaeaed;
     /* overflow: auto; */
-    *zoom: 1;
+    /* *zoom: 1; */
 }
 
-.box-set:before,
+/* .box-set:before,
 .box-set:after {
     content: "";
     display: table;
@@ -22,7 +22,7 @@ body {
 
 .box-set:after {
     clear: both;
-}
+} */
 
 .box {
     background: #2db34a;
