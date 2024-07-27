@@ -69,7 +69,17 @@ footer {
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-    section {
-        outline: 1px solid blue;
+    header {
+        float: left;
+        height: 600px;
+        width: 15%;
+    }
+
+    .section-1, .section-2 {
+        width: 60%;
+    }
+
+    .section-3 {
+        width: 25%;
     }
 }
