@@ -22,21 +22,23 @@
 /*******************************************/
 
 body {
-    height: 100px;
-    border: 2px solid black;
-    clear: both;
+
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header, footer {
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
 }
 
-footer {
-
+section {
+    height: 300px;
+    width: 20%;
+    border: 2px solid black;
 }
 
 /******************************************
