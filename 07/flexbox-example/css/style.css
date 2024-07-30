@@ -37,8 +37,12 @@ header, footer {
 section {
      height: 200px;
      border: 1px solid black;
+     flex: 1; /* take up one spot */
 }
 
+main, .bottom {
+     display: flex;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
