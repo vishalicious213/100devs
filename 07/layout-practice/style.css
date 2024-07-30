@@ -39,6 +39,11 @@ section {
     height: 300px;
     width: 20%;
     border: 2px solid black;
+    float: left;
+}
+
+.thiccOne {
+    width: 40%;
 }
 
 /******************************************
