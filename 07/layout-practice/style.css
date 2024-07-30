@@ -46,6 +46,12 @@ section {
     width: 40%;
 }
 
+@media screen and (max-width: 600px) {
+    section {
+        background-color: green;
+    }
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
