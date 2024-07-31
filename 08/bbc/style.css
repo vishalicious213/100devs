@@ -40,6 +40,14 @@ main {
     margin-right: .5%;
 }
 
+.background-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+}
+
+/* TOP STORIES */
+
 .top-stories {
     float: left;
     width: 49.5%;
@@ -62,6 +70,23 @@ main {
     margin-left: .5%;
 }
 
+.top-1 {
+    background-image: url("canada-us.webp");
+    margin-bottom: 1.5%;
+}
+
+.top-2 {
+    background-image: url("vaccine.webp");
+    margin-bottom: 1.5%;
+}
+
+.top-3 {
+    background-image: url("productivity-gyms.webp");
+}
+
+.top-4 {
+    background-image: url("victor-jara.webp");
+}
 
 /* NEWS */
 
