@@ -30,7 +30,6 @@ header {
 
 .top-story {
     width: 65%;
-    outline: 1px solid orange;
     float: left;
     padding-right: 3rem;
 }
@@ -59,7 +58,6 @@ header {
 
 .headlines {
     width: 35%;
-    outline: 1px solid yellowgreen;
     float: left;
 }
 
@@ -78,6 +76,33 @@ header {
 /* LATEST */
 
 .latest {
-    outline: 1px solid blue;
     clear: both;
+}
+
+.latest article > * {
+    float: left;
+    width: 33.3333%;
+}
+
+.latest article h2 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    letter-spacing: -2.75px;
+    margin-bottom: .5rem;
+    padding-right: 3.5rem;
+}
+
+.latest article p {
+    color: #999999;
+    margin-bottom: 0;
+}
+
+.latest article img {
+    width: 100%;
+    padding-left: 1.5rem;
+}
+
+.article-time {
+    margin-top: .25rem;
+    font-size: .75rem;
 }
