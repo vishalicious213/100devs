@@ -39,7 +39,7 @@ header > * {
 }
 
 header > div {
-    width: 22.5%;
+    width: 20.5%;
 }
 
 .logo-area {
@@ -48,6 +48,8 @@ header > div {
 
 .logo-area div {
     float: left;
+    padding-right: 1rem;
+    border-right: 1px solid #999999;
 }
 
 .logo-area button {
@@ -70,13 +72,19 @@ header > div {
 /* NAV */
 
 header > nav {
-    width: 77.5%;
+    width: 79.5%;
 }
 
 .top-nav li {
     float: left;
     list-style: none;
     width: 5rem;
+    text-align: center;
+    border-right: 1px solid #999999;
+}
+
+.top-nav li:first-child {
+    border-left: 1px solid #999999;
 }
 
 .top-nav a {
@@ -89,8 +97,10 @@ header > nav {
 nav select {
     background-color: black;
     color: white;
-    width: 5rem;
+    width: 6rem;
     font-weight: 600;
+    margin-left: 1rem;
+    border: none;
 }
 
 nav input {
@@ -99,6 +109,12 @@ nav input {
     background-repeat: no-repeat;
     background-size: contain;
     font-weight: 600;
+    outline: 1px solid green;
+}
+
+.spacer {
+    border-right: 1px solid #999999;
+    margin: 0 .75rem 0 .25rem;
 }
 
 /* ABOVE THE FOLD */
@@ -239,8 +255,6 @@ main div span {
 /* NEWS */
 
 h2 {
-    /* border-left: 2px solid red; */
-    /* padding-left: .5rem; */
     margin-top: 24rem;
     clear: both;
 }
@@ -251,8 +265,6 @@ h2 {
 
 .news span {
     color: #999999;
-    /* border-left: 1px solid red;
-    padding-left: .5rem; */
 }
 
 .news section {
