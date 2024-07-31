@@ -30,7 +30,7 @@ body {
 header {
     background-color: black;
     color: white;
-    height: 5rem;
+    height: 3rem;
 }
 
 header > * {
@@ -45,6 +45,27 @@ header > div {
 header > nav {
     outline: 1px solid red;
     width: 77.5%;
+}
+
+.logo-area div {
+    float: left;
+}
+
+.logo-area button {
+    margin: .25rem 0 0 1rem;
+    padding-left: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    background-image: url("sign-in.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-area button:hover {
+    cursor: pointer;
 }
 
 .top-nav li {
