@@ -30,12 +30,11 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  height: 100px;
+  background-color: black;
+  color: white;
 }
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
