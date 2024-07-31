@@ -15,6 +15,7 @@ body {
 
 header {
     color: #006AEC;
+    font-size: .75rem;
 }
 
 nav > * {
@@ -24,8 +25,27 @@ nav > * {
     font-weight: 600;
 }
 
-nav form, nav li {
+nav form {
     margin-top: 5px;
+}
+
+::placeholder {
+    color: #006AEC;
+    font-weight: 600;
+}
+
+nav form input {
+    background-image: url("magnifying-glass.svg");
+    background-color: #F0F1F2;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+}
+
+.input-container {
+    background-color: #F0F1F2;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .logo {
@@ -39,7 +59,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    margin: 5px 1rem 0;
+    margin: 8px 1rem 0;
 }
 
 /* HERO */
