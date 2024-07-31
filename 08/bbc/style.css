@@ -30,3 +30,7 @@ body {
 .news-3 {
     margin-left: .5rem;
 }
+
+.news img {
+    width: 100%;
+}
