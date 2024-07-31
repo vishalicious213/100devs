@@ -3,7 +3,6 @@
 }
 
 body {
-    outline: 1px solid red;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -16,6 +15,8 @@ body {
 header {
     color: #006AEC;
     font-size: .75rem;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 nav > * {
@@ -40,6 +41,12 @@ nav form input {
     background-repeat: no-repeat;
     background-position: right;
     border: none;
+}
+
+nav form select {
+    margin-right: 10px;
+    border: none;
+    color: #006AEC;
 }
 
 .input-container {
