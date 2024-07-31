@@ -27,11 +27,30 @@ body {
     font-weight: 400;
 }
 
+/* ABOVE THE FOLD */
+
+.above-the-fold {
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 50%;
+    outline: 1px solid blue;
+}
+
+.top-stories {
+    float: left;
+    width: 50%;
+    outline: 1px solid blue;
+}
+
 /* NEWS */
 
 h2 {
     border-left: 2px solid red;
     padding-left: .5rem;
+    clear: both;
 }
 
 .news h3 {
