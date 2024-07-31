@@ -36,8 +36,13 @@ body {
 main {
     float: left;
     width: 49.5%;
+    height: 20.55rem;
     outline: 1px solid blue;
     margin-right: .5%;
+    position: relative;
+    background-image: url("israel-uae.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .background-img {
@@ -59,7 +64,7 @@ main {
 /* TOP STORIES */
 
 .top-stories {
-    float: left;
+    float: right;
     width: 49.5%;
     outline: 1px solid blue;
     margin-left: .5%;
