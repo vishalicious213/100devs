@@ -17,5 +17,11 @@ h2 {
 }
 
 /* Please give the section a thick blue border, height of 300px, and more the 400px of margin on the top */
-	
+
+section {
+    border: 10px solid blue;
+    height: 300px;
+    margin-top: 405px;
+}
+
 /* Please make the spans have thin yellow borders and equal padding / margin on all sides */
