@@ -6,6 +6,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.author {
+    font-weight: 600;
+    font-size: .75rem;
+    margin-top: 0;
+}
+
 /* HEADER */
 
 header {
@@ -42,11 +48,12 @@ header {
     margin: .5rem 0;
 }
 
-.author {
-    font-weight: 600;
-    font-size: .75rem;
-    margin-top: 0;
+.top-story img {
+    width: 100%;
+    margin-top: .5rem;
 }
+
+
 
 /* HEADLINES */
 
@@ -54,6 +61,14 @@ header {
     width: 35%;
     outline: 1px solid yellowgreen;
     float: left;
+}
+
+.headlines ul {
+    padding: 0;
+}
+
+.headlines ul li {
+    list-style: none;
 }
 
 .headlines h2 {
