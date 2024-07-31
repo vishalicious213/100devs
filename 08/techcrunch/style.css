@@ -16,7 +16,6 @@ body {
 /* HEADER */
 
 header {
-    outline: 1px solid red;
     width: 15%;
     float: left;
 }
@@ -48,16 +47,24 @@ header p + p {
     margin-top: .5rem;
 }
 
-.extra-crunch a {
+.extra-crunch {
     color: #FFA63C;
     font-weight: 600;
 }
 
+header input {
+    background-image: url("magnifying-glass.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 1.5rem;
+    color: #999999;
+    border: none;
+    width: 7rem;
+}
 /* MAIN / TOP STORIES */
 
 .above-the-fold {
     width: 85%;
-    outline: 1px solid black;
     float: left;
 }
 
@@ -84,8 +91,6 @@ header p + p {
     width: 100%;
     margin-top: .5rem;
 }
-
-
 
 /* HEADLINES */
 
