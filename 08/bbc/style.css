@@ -4,6 +4,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .welcome {
@@ -212,12 +214,34 @@ main div span {
     background-image: url("victor-jara.webp");
 }
 
+.category-blue {
+    border-left: 2px solid dodgerblue;
+    padding-left: .5rem;
+}
+
+.category-black {
+    border-left: 2px solid black;
+    padding-left: .5rem;
+}
+
+
+.category-red {
+    border-left: 2px solid red;
+    padding-left: .5rem;
+}
+
+.category-red-2 {
+    border-left: 4px solid red;
+    padding-left: .5rem;
+}
+
+
 /* NEWS */
 
 h2 {
-    border-left: 2px solid red;
+    /* border-left: 2px solid red; */
+    /* padding-left: .5rem; */
     margin-top: 24rem;
-    padding-left: .5rem;
     clear: both;
 }
 
@@ -227,8 +251,8 @@ h2 {
 
 .news span {
     color: #999999;
-    border-left: 1px solid red;
-    padding-left: .5rem;
+    /* border-left: 1px solid red;
+    padding-left: .5rem; */
 }
 
 .news section {
