@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    outline: 1px solid red;
+}
+
+/* NEWS */
+
+.news {
+    outline: 1px solid orange;
+}
+
+.news section {
+    outline: 1px solid orangered;
+    float: left;
+    width: 32.3333%;
+}
+
+.news-1 {
+    margin-right: .5rem;
+}
+
+.news-2 {
+    margin-right: .6rem;
+    margin-left: .6rem;
+}
+
+.news-3 {
+    margin-left: .5rem;
+}
