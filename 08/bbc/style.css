@@ -35,15 +35,32 @@ body {
 
 main {
     float: left;
-    width: 50%;
+    width: 49.5%;
     outline: 1px solid blue;
+    margin-right: .5%;
 }
 
 .top-stories {
     float: left;
-    width: 50%;
+    width: 49.5%;
     outline: 1px solid blue;
+    margin-left: .5%;
 }
+
+.top-stories section {
+    outline: 1px solid violet;
+    float: left;
+    width: 49.5%;
+}
+
+.left-story {
+    margin-right: .5%;
+}
+
+.right-story {
+    margin-left: .5%;
+}
+
 
 /* NEWS */
 
