@@ -9,6 +9,13 @@ h1 {
 
 /* Please give the h2 significant padding on the top and bottom, a dark green border on the top and bottom, and an orange background */
 
+h2 {
+    padding: 20px 0;
+    border-top: 3px solid darkgreen;
+    border-bottom: 3px solid darkgreen;
+    background-color: orange;
+}
+
 /* Please give the section a thick blue border, height of 300px, and more the 400px of margin on the top */
 	
 /* Please make the spans have thin yellow borders and equal padding / margin on all sides */
