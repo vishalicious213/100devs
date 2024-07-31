@@ -37,12 +37,35 @@ main {
     float: left;
     width: 49.5%;
     height: 20.55rem;
-    outline: 1px solid blue;
     margin-right: .5%;
     position: relative;
     background-image: url("israel-uae.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+}
+
+main div h3 {
+    position: absolute;
+    bottom: 3.75rem;
+    width: 95%;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+main div p {
+    position: absolute;
+    bottom: 1.75rem;
+    color: #dddddd;
+    width: 95%;
+}
+
+main div span {
+    position: absolute;
+    bottom: .75rem;
+    color: #dddddd;
+    text-transform: uppercase;
+    font-size: .9rem;
 }
 
 .background-img {
@@ -66,7 +89,6 @@ main {
 .top-stories {
     float: right;
     width: 49.5%;
-    outline: 1px solid blue;
     margin-left: .5%;
 }
 
@@ -85,6 +107,9 @@ main {
 .top-stories section p {
     position: absolute;
     bottom: 0;
+    color: #dddddd;
+    text-transform: uppercase;
+    font-size: .9rem;
 }
 
 .left-story {
