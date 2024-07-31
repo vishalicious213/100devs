@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* float: left; */
+}
+
+/* HEADER */
+
+header {
+    width: 15%;
+    outline: 1px solid red;
+    float: left;
+}
+
+/* MAIN / TOP STORIES */
+
+.above-the-fold {
+    width: 85%;
+    outline: 1px solid black;
+    float: left;
+}
+
+.top-story {
+    width: 65%;
+    outline: 1px solid orange;
+    float: left;
+}
+
+.headlines {
+    width: 35%;
+    outline: 1px solid yellowgreen;
+    float: left;
+}
+
+.latest {
+    outline: 1px solid blue;
+    clear: both;
+}
