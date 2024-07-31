@@ -25,3 +25,9 @@ section {
 }
 
 /* Please make the spans have thin yellow borders and equal padding / margin on all sides */
+
+span {
+    border: 1px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}
