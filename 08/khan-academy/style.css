@@ -21,6 +21,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: .9rem;
 }
 
 h1 {
@@ -33,4 +34,13 @@ h1 {
     text-decoration: underline;
     text-decoration-color: #00cca3;
     text-underline-offset: 10px;
+}
+
+button {
+    background-color: #006AEC;
+    color: whitesmoke;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: .7rem;
 }
