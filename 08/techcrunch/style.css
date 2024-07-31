@@ -4,6 +4,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: .5rem;
 }
 
 .author {
@@ -15,9 +16,41 @@ body {
 /* HEADER */
 
 header {
-    width: 15%;
     outline: 1px solid red;
+    width: 15%;
     float: left;
+}
+
+header nav {
+    margin-top: 2rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+header a {
+    color: #999999;
+    text-decoration: none;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+header p + p {
+    margin-top: .5rem;
+}
+
+.extra-crunch a {
+    color: #FFA63C;
+    font-weight: 600;
 }
 
 /* MAIN / TOP STORIES */
