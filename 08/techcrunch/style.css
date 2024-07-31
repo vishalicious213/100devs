@@ -3,7 +3,7 @@
 }
 
 body {
-    /* float: left; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADER */
@@ -28,11 +28,21 @@ header {
     float: left;
 }
 
+h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    letter-spacing: -2.75px;
+}
+
+/* HEADLINES */
+
 .headlines {
     width: 35%;
     outline: 1px solid yellowgreen;
     float: left;
 }
+
+/* LATEST */
 
 .latest {
     outline: 1px solid blue;
