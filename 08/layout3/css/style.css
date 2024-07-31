@@ -37,9 +37,17 @@ header {
 
 nav * {
   float: left;
-  /* width: 10%; */
+  width: 10%;
   color: white;
   display: block;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
 }
 
 
