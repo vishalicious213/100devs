@@ -187,3 +187,33 @@ main p {
     width: 10rem;
     margin-top: 2rem;
 }
+
+footer {
+    background-color: #161F2A;
+    color: #F1F1F1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 2.5rem;
+}
+
+footer > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+address {
+    font-style: normal;
+    font-size: .8rem;
+}
+
+address h4 {
+    text-transform: uppercase;
+}
+
+address p {
+    color: #DBDFE2;
+    line-height: .25rem;
+}
+
+address a {
+    color: #F1F1F1;
+}
