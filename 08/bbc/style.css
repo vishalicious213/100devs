@@ -60,7 +60,7 @@ header > div {
     background-color: black;
     color: white;
     font-weight: 600;
-    background-image: url("sign-in.jpg");
+    background-image: url("img/sign-in.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -104,7 +104,7 @@ nav select {
 }
 
 nav input {
-    background-image: url("magnifying-glass.svg");
+    background-image: url("img/magnifying-glass.svg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -129,7 +129,7 @@ main {
     height: 20.55rem;
     margin-right: .5%;
     position: relative;
-    background-image: url("israel-uae.webp");
+    background-image: url("img/israel-uae.webp");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -213,21 +213,21 @@ main div span {
 }
 
 .top-1 {
-    background-image: url("canada-us.webp");
+    background-image: url("img/canada-us.webp");
     margin-bottom: 1.5%;
 }
 
 .top-2 {
-    background-image: url("vaccine.webp");
+    background-image: url("img/vaccine.webp");
     margin-bottom: 1.5%;
 }
 
 .top-3 {
-    background-image: url("productivity-gyms.webp");
+    background-image: url("img/productivity-gyms.webp");
 }
 
 .top-4 {
-    background-image: url("victor-jara.webp");
+    background-image: url("img/victor-jara.webp");
 }
 
 .category-blue {
