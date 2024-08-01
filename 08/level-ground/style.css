@@ -173,3 +173,17 @@ main p {
     height: 3rem;
     width: 10rem;
 }
+
+/* VOLUNTEER */
+
+.volunteer button {
+    background-color: white;
+    border: 1px solid #979797;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 2rem;
+}
