@@ -66,7 +66,7 @@ main {
     background-color: #66768A;
     color: #F1F1F1;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 3.25rem;
     font-family: "Oswald", sans-serif;
 }
 
@@ -81,4 +81,24 @@ main p {
     width: 73%;
     margin: 0 auto;
     font-size: 1.25rem;
+}
+
+.main-video {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+.main-video span {
+    padding-left: .5rem;
+}
+
+.main-img {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    color: #3F4251;
+    font-style: italic;
 }
