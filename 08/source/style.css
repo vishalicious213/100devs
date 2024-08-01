@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    width: 320px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 1px solid #D5DEE6;
+}
+
+/* HEADER - MOBILE */
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.mobile-nav nav {
+    margin-left: 1rem;
+}
+
+.mobile-nav span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
