@@ -102,3 +102,22 @@ main p {
     color: #3F4251;
     font-style: italic;
 }
+
+/* WHY */
+
+.why {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.why h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.why p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    color: #3F4251;
+}
