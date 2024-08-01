@@ -107,21 +107,21 @@ main p {
     font-style: italic;
 }
 
-/* WHY */
+/* WHY / VOLUNTEER */
 
-.why {
+.why, .volunteer {
     font-family: "Oswald", sans-serif;
     text-align: center;
     margin: 7rem 0;
 }
 
-.why h2 {
+.why h2, .volunteer h2 {
     text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.why p {
+.why p, .volunteer p {
     width: 50%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
