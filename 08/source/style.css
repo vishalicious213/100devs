@@ -2,21 +2,13 @@
     box-sizing: border-box;
 }
 
-/* .lato-regular {
+/* lato font info {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-style: normal;
-} */
-
-/* .lato-bold {
-    font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-style: normal;
 } */
 
 body {
-    border-left: 1px solid red;
-    border-right: 1px solid red;
     width: 320px;
     margin: 0 auto;
     padding: 1rem;
@@ -50,6 +42,10 @@ header {
 
 /* MAIN */
 
+main {
+    position: relative;
+}
+
 main span {
     text-transform: uppercase;
     color: #8197AA;
@@ -73,4 +69,11 @@ main input::placeholder {
 main button {
     background-color: #304659;
     color: #F5F9F9;
+}
+
+main img {
+    width: 100%;
+    position: absolute;
+    right: -1rem;
+    margin-top: 1rem;
 }
