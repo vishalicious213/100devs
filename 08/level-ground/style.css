@@ -2,10 +2,39 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
-    outline: 1px solid red;
     display: flex;
     justify-content: space-between;
     background-color: #66768A;
     color: #F1F1F1;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:first-child {
+    margin-right: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: .75rem;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
 }
