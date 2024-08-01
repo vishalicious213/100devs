@@ -38,6 +38,10 @@ header button {
     box-sizing: border-box;
 }
 
+header img {
+    width: 2rem;
+}
+
 /* NAV */
 
 nav ul {
@@ -239,4 +243,9 @@ address a {
     border-top: 1px solid #F1F1F1;
     padding-top: .5rem;
     margin-top: 2rem;
+}
+
+.tax-exempt img {
+    width: 2rem;
+    height: 1.75rem;
 }
