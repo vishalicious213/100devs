@@ -1,28 +1,32 @@
-* {
-    box-sizing: border-box;
-}
-
 /* lato font info {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-weight: 700;
 } */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width: 320px;
-    margin: 0 auto;
-    padding: 1rem;
     background-color: #F5F9F9;
     color: #304659;
     font-family: "Lato", sans-serif;
+}
+
+.container {
+    /* width: 320px; */
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 /* HEADER */
 
 header {
     border-bottom: 1px solid #D5DEE6;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* HEADER - MOBILE */
@@ -34,22 +38,29 @@ header {
     position: relative;
 }
 
+.mobile-nav:hover {
+    cursor: pointer;
+}
+
 .mobile-nav span {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 /* MAIN */
 
-main {
-    position: relative;
-    margin-bottom: 19rem;
-}
-
 main span {
     text-transform: uppercase;
     color: #8197AA;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    margin-bottom: 1.25rem;
 }
 
 main input, main button {
@@ -59,8 +70,8 @@ main input, main button {
 main input {
     background-color: #E1E9F0;
     border: none;
-    padding: .5rem;
-    margin-bottom: .5rem;
+    padding: .6rem;
+    margin-bottom: .75rem;
 }
 
 main input::placeholder {
@@ -70,19 +81,22 @@ main input::placeholder {
 main button {
     background-color: #304659;
     color: #F5F9F9;
+    padding: .6rem;
+    border: none;
+    margin-bottom: 1.25rem;
 }
 
-main img {
+.main-img img {
     width: 100%;
-    position: absolute;
-    right: -1rem;
-    margin-top: 1rem;
+    margin: 1.5rem 0 2rem;
 }
 
 /* FEATURES */
 
 .feature {
-    margin-bottom: 3rem;
+    border-bottom: 1px solid #D5DEE6;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .feature h3 {
@@ -98,3 +112,33 @@ main img {
     font-weight: 700;
     text-decoration: none;
 }
+
+/* COLLECTING */
+
+.collecting {
+    background-color: #FFFFFF;
+    padding-bottom: 3rem;
+}
+
+.collecting h1 {
+    font-size: 2rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 480px) {
+    form {
+        display: flex;
+        align-items: baseline;
+    }
+
+    main input {
+        width: 75%;
+    }
+
+    main button {
+        width: 25%;
+    }
+}
+
+/* @media screen and (min-width: 768px) {} */
