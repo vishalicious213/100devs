@@ -7,12 +7,16 @@ body {
     border-right: 1px solid red;
     width: 320px;
     margin: 0 auto;
+    padding: 1rem;
+    color: #304659;
 }
 
 /* HEADER */
 
 header {
     border-bottom: 1px solid #D5DEE6;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* HEADER - MOBILE */
@@ -24,10 +28,6 @@ header {
     position: relative;
 }
 
-.mobile-nav nav {
-    margin-left: 1rem;
-}
-
 .mobile-nav span {
     position: absolute;
     left: 50%;
@@ -36,3 +36,11 @@ header {
 
 /* MAIN */
 
+main span {
+    text-transform: uppercase;
+    color: #8197AA;
+}
+
+main input, main button {
+    width: 100%;
+}
