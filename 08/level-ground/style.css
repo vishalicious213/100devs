@@ -128,4 +128,30 @@ main p {
 
 .visit {
     background-color: #DBDFE2;
+    display: flex;
+    padding: 6.5rem 0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.visit section {
+    outline: 1px solid red;
+    width: 35%;
+}
+
+.visit h3 {
+    text-transform: uppercase;
+}
+
+.visit p {
+    color: #3F4251;
+}
+
+.visit-img {
+    width: 30vw;
+    height: 20vh;
+    background-color: #66768A;
+    margin: auto;
 }
