@@ -234,3 +234,9 @@ address p {
 address a {
     color: #F1F1F1;
 }
+
+.tax-exempt {
+    border-top: 1px solid #F1F1F1;
+    padding-top: .5rem;
+    margin-top: 2rem;
+}
