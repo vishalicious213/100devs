@@ -36,7 +36,7 @@ nav form {
 }
 
 nav form input {
-    background-image: url("magnifying-glass.svg");
+    background-image: url("img/magnifying-glass.svg");
     background-color: #F0F1F2;
     background-repeat: no-repeat;
     background-position: right;
