@@ -175,6 +175,12 @@ main button {
         display: flex;
         align-items: center;
     }
+}
+
+@media screen and (min-width: 720px) {
+    .feature {
+        width: 23.5%;
+    }
 
     .mobile-nav {
         display: none;
@@ -192,11 +198,5 @@ main button {
 
     .widescreen-nav > * {
         outline: 1px solid red;
-    }
-}
-
-@media screen and (min-width: 720px) {
-    .feature {
-        width: 23.5%;
     }
 }
