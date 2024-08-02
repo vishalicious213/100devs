@@ -8,6 +8,8 @@ body {
     background-color: #F5F9F9;
     color: #304659;
     font-family: "Lato", sans-serif;
+    max-width: 1080px;
+    margin: auto;
 }
 
 .container {
@@ -118,12 +120,19 @@ main button {
 
 .collecting {
     background-color: #FFFFFF;
-    padding: 2rem 0 3rem;
+    padding-top: 2rem;
 }
 
 .collecting h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+
+.collecting section {
+    height: 3rem;
+    width: 100%;
+    background-color: #E1E9F0;
+    margin-top: 2rem;
 }
 
 /* MEDIA QUERIES */
@@ -161,5 +170,11 @@ main button {
     .main-flex {
         display: flex;
         align-items: center;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .feature {
+        width: 23.5%;
     }
 }
