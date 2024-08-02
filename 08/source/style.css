@@ -45,6 +45,10 @@ header {
     font-weight: 700;
 }
 
+.widescreen-nav {
+    display: none;
+}
+
 /* MAIN */
 
 main span {
@@ -170,6 +174,14 @@ main button {
     .main-flex {
         display: flex;
         align-items: center;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .widescreen-nav {
+        display: flex;
     }
 }
 
