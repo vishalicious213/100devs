@@ -141,6 +141,25 @@ main button {
     main button {
         width: 25%;
     }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+    .feature {
+        width: 49%;
+    }
+
+    .feature:nth-child(3) {
+        border-bottom: none;
+    }
 }
 
-/* @media screen and (min-width: 768px) {} */
+@media screen and (min-width: 640px) {
+    .main-flex {
+        display: flex;
+        align-items: center;
+    }
+}
