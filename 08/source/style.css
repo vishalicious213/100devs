@@ -207,12 +207,14 @@ main button {
         color: #304659;
         text-decoration: none;
         text-align: center;
-        width: 6rem;
+        width: 5.25rem;
         margin: 0 .5rem;
-        /* outline: 1px solid blue; */
     }
 
-    .widescreen-nav > * {
-        /* outline: 1px solid red; */
+    .widescreen-nav button {
+        background-color: #304659;
+        color: #F5F9F9;
+        padding: .6rem 1.5rem;
+        border: none;
     }
 }
