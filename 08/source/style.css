@@ -196,7 +196,17 @@ main button {
         list-style: none;
     }
 
+    .widescreen-nav a {
+        display: inline-block;
+        color: #304659;
+        text-decoration: none;
+        text-align: center;
+        width: 6rem;
+        margin: 0 .5rem;
+        /* outline: 1px solid blue; */
+    }
+
     .widescreen-nav > * {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
     }
 }
