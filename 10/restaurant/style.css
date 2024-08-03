@@ -24,6 +24,11 @@ body {
     margin: auto;
     background-color: #252525;
     color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    font-family: "Maiden Orange", serif;
 }
 
 /* HEADER */
@@ -37,6 +42,40 @@ header > * {
     outline: 1px solid red;
 }
 
+header > img {
+    background-color: #FF8800;
+    width: 100%;
+}
+
+/* NAV */
+
+.nav-container {
+    display: flex;
+}
+
+.widescreen-nav {
+    display: none;
+}
+
+.mobile-nav {
+    color: #FF8800;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 1rem;
+}
+
+.nav-cart-search {
+    display: flex;
+}
+
+.nav-cart-search img {
+    background-color: #FF8800;
+    width: 2rem;
+    border-radius: .75rem;
+    margin: 0 1rem;
+    padding: .25rem;
+}
+
 /* MAIN */
 
 main {
@@ -45,7 +84,6 @@ main {
 
 main h1 {
     margin-bottom: 2rem;
-    font-family: "Maiden Orange", serif;
     font-size: 3rem;
     font-weight: 400;
     color: #FF8800;
