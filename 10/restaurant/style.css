@@ -30,6 +30,12 @@ h1, h2 {
     font-family: "Maiden Orange", serif;
 }
 
+.bk {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* HEADER */
 
 header {
@@ -38,9 +44,7 @@ header {
     margin: 0;
     padding: 1rem 1rem 9rem 1rem;
     background-image: url("img/bk-01.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 
 header img:hover {
@@ -91,8 +95,6 @@ header > img {
 
 main {
     background-image: url("img/bk-02.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 2rem 1rem;
 }
 
@@ -135,5 +137,5 @@ main form img {
 }
 
 .social-media span {
-    margin-right: 2rem;
+    margin-right: 1.75rem;
 }
