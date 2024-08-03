@@ -36,6 +36,12 @@ h1, h2 {
     background-position: center;
 }
 
+.section-tag {
+    color: #FFAA4D;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+
 /* HEADER */
 
 header {
@@ -152,6 +158,12 @@ main form img {
 
 .about-us {
     padding: 2rem 1rem;
+}
+
+.about-us h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #FF8800;
 }
 
 .about-us button {
