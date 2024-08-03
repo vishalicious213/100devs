@@ -20,7 +20,6 @@
 
 body {
     /* max-width: 1080px; */
-    max-width: 320px;
     margin: auto;
     background-color: #252525;
     color: #F5F5F5;
@@ -36,7 +35,12 @@ h1, h2 {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 0;
+    padding: 1rem 1rem 9rem 1rem;
+    background-image: url("img/bk-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header img:hover {
@@ -63,7 +67,7 @@ header > img {
     color: #FF8800;
     font-size: 1.5rem;
     font-weight: 400;
-    margin: 0 1rem;
+    margin-left: 1rem;
 }
 
 .mobile-nav:hover {
@@ -86,12 +90,15 @@ header > img {
 /* MAIN */
 
 main {
-    margin: 3rem 0;
+    background-image: url("img/bk-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem;
 }
 
 main h1 {
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-weight: 400;
     color: #FF8800;
 }
