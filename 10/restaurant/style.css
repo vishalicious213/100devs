@@ -1,0 +1,31 @@
+.colors {
+    color: #F5F5F5; /* whitesmoke */
+    color: #DAC6C5; /* pinkish */
+    color: #FF8800; /* dark orange */
+    color: #FFAA4D; /* light orange */
+    color: #252525; /* near black */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* max-width: 1080px; */
+    max-width: 320px;
+    margin: auto;
+    background-color: #252525;
+    color: #F5F5F5;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+}
+
+header > * {
+    outline: 1px solid red;
+}
