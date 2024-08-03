@@ -6,6 +6,12 @@
     color: #252525; /* near black */
 }
 
+.maiden-orange-regular {
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +30,7 @@ body {
 
 header {
     display: flex;
+    margin-bottom: 1rem;
 }
 
 header > * {
@@ -31,6 +38,18 @@ header > * {
 }
 
 /* MAIN */
+
+main {
+    margin: 3rem 0;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+    font-family: "Maiden Orange", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #FF8800;
+}
 
 main form > * {
     width: 100%;
