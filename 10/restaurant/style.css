@@ -55,6 +55,8 @@ header > img {
     background-color: #FF8800;
     width: 2.5rem;
     height: 2rem;
+    border-radius: .5rem;
+    outline: 1px solid #FFAA4D;
 }
 
 /* NAV */
@@ -109,7 +111,6 @@ main h1 {
 
 main form {
     padding: 0 1rem;
-
 }
 
 main form > * {
@@ -145,4 +146,30 @@ main form img {
 
 .social-media span {
     margin-right: 1.75rem;
+}
+
+/* ABOUT US */
+
+.about-us {
+    padding: 2rem 1rem;
+}
+
+.about-us button {
+        border: none;
+        color: #F5F5F5;
+        margin-top: 2rem;
+}
+
+.about-us button span:first-child {
+    background-color: #FF8800;
+    padding: .5rem;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.about-us button span + span {
+    background-color: #FFAA4D;
+    padding: .5rem;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
 }
