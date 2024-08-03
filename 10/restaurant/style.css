@@ -164,12 +164,17 @@ main form img {
     font-size: 2.25rem;
     font-weight: 400;
     color: #FF8800;
+    margin-bottom: 2rem;
+}
+
+.about-us p {
+    margin-bottom: 1rem;
 }
 
 .about-us button {
         border: none;
         color: #F5F5F5;
-        margin-top: 2rem;
+        margin-top: 1rem;
 }
 
 .about-us button span:first-child {
