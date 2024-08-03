@@ -29,3 +29,40 @@ header {
 header > * {
     outline: 1px solid red;
 }
+
+/* MAIN */
+
+main form > * {
+    width: 100%;
+}
+
+main form input {
+    padding: .5rem .5rem .5rem 1.75rem;
+    background-image: url("img/magnifying-glass.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: .25rem;
+    margin-bottom: .75rem;
+}
+
+main form button {
+    border: none;
+    border-radius: .25rem;
+    padding: .5rem;
+    background-color: #FF8800;
+    color: #F5F5F5;
+}
+
+main form img {
+    width: 1rem;
+}
+
+.social-media {
+    margin-top: 2rem;
+}
+
+.social-media span {
+    margin-right: 2rem;
+}
