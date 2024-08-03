@@ -95,7 +95,7 @@ header > img {
 
 main {
     background-image: url("img/bk-02.jpg");
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 main h1 {
@@ -103,6 +103,13 @@ main h1 {
     font-size: 2.75rem;
     font-weight: 400;
     color: #FF8800;
+    background-color: rgba(37, 37, 37, .5);
+    padding: .5rem 1rem;
+}
+
+main form {
+    padding: 0 1rem;
+
 }
 
 main form > * {
