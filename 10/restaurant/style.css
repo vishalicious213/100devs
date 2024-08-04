@@ -203,3 +203,34 @@ main form img {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
 }
+
+/* ORDER */
+
+.order {
+    padding: 0 1rem;
+}
+
+.order h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #FF8800;
+    margin-bottom: 2rem;
+    /* background-color: rgba(37, 37, 37, .5);
+    padding: .5rem 1rem; */
+}
+
+.order ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.order li {
+    outline: 1px solid red;
+}
+
+.order a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
