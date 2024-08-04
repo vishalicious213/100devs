@@ -204,14 +204,14 @@ main form img {
     border-bottom-right-radius: .25rem;
 }
 
-/* ORDER */
+/* SPECIALTY */
 
-.order {
+.specialty {
     padding: 2rem 0;
     background-image: url("img/bk-04.jpg");
 }
 
-.order > span {
+.specialty > span {
     margin-left: .5rem;
     margin-bottom: .25rem;
     padding: .25rem .5rem 0;
@@ -219,7 +219,7 @@ main form img {
     background-color: rgba(37, 37, 37, .5);
 }
 
-.order h2 {
+.specialty h2 {
     font-size: 2.25rem;
     font-weight: 400;
     color: #FF8800;
@@ -228,14 +228,14 @@ main form img {
     padding: .5rem 1rem;
 }
 
-.order ul {
+.specialty ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
 }
 
-.order li {
+.specialty li {
     border: 1px solid #FF8800;
     border-radius: .25rem;
     background-color: #252525;
@@ -245,7 +245,21 @@ main form img {
     text-align: center;
 }
 
-.order a {
+.specialty a {
     color: #F5F5F5;
     text-decoration: none;
+}
+
+/* ORDERS */
+
+.orders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.orders img {
+    width: 40%;
 }
