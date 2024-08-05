@@ -285,6 +285,10 @@ main form img {
 
 /* BOOK TABLE */
 
+.book-table {
+    margin-bottom: 3rem;
+}
+
 .book-table > span {
     margin-left: 1rem;
 }
