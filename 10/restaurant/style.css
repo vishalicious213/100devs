@@ -430,7 +430,8 @@ main form img {
     /*  */
 
     .about-us > span {
-        padding: .25rem .5rem 0 30%;
+        margin-left: 0;
+        padding: .25rem 0 0 30%;
         background-color: inherit;
     }
     
