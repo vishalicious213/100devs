@@ -376,6 +376,11 @@ main form img {
     text-align: center;
 }
 
+.testimonials img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
 .testimonials-name {
     font-size: 1.25rem;
     font-weight: 600;
