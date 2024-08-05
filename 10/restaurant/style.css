@@ -401,3 +401,18 @@ main form img {
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 480px) {
+    main form input {
+        width: 75%;
+    }
+
+    main form button {
+        width: 25%;
+        margin: -.5rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
