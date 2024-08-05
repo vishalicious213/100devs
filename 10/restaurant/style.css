@@ -332,12 +332,22 @@ main form img {
 }
 
 .book-table-carousel {
-    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    gap: .5em;
+}
+
+.book-table-carousel span {
+    border: 1px solid #FF8800;
+    border-radius: 50%;
+    color: #FF8800;
+    width: 1.75rem;
+    text-align: center;
+}
+
+.carousel {
     width: 100%;
     padding-top: 56.25%;
     background-image: url("img/book-table.jpg");
-}
-
-.book-table section img {
-    width: 100%;
 }
