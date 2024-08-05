@@ -359,7 +359,7 @@ main form img {
 /* TESTIMONIALS */
 
 .testimonials {
-    padding: 0 1rem;
+    padding: 0 1rem 3rem;
 }
 
 .testimonials h2 {
@@ -387,7 +387,11 @@ main form img {
     margin-bottom: 1rem;
 }
 
-.testimonials section span {
+.testimonials-review {
+    margin-bottom: 1rem;
+}
+
+.testimonials section .rating {
     color: #FFAA4D;
     font-size: 1.25rem;
     margin-bottom: 1rem;
