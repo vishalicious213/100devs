@@ -298,9 +298,7 @@ main form img {
 
 .phone {
     margin: 2rem 1rem 1rem;
-    /* outline: 1px solid red; */
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -315,6 +313,20 @@ main form img {
 .tel {
     color: #FF8800;
     text-decoration: none;
+}
+
+.hours {
+    padding-left: 1rem;
+}
+
+.hours div {
+    margin-bottom: 1rem;
+}
+
+.days {
+    color: #FF8800;
+    font-size: .9rem;
+    line-height: 2rem;
 }
 
 .book-table section img {
