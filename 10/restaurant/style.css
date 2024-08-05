@@ -298,20 +298,22 @@ main form img {
 
 .phone {
     margin: 2rem 1rem 1rem;
-    display: flex;
-    align-items: center;
 }
 
-.phone > * {
-    margin-right: .5rem;
+.phone div {
+    display: flex;
+    align-items: center;
+    margin-bottom: .75rem;
 }
 
 .phone img {
     width: 2rem;
+    margin-right: .5rem;
 }
 
 .tel {
     color: #FF8800;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
