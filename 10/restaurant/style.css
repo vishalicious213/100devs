@@ -285,10 +285,6 @@ main form img {
 
 /* BOOK TABLE */
 
-.book-table {
-    margin-bottom: 3rem;
-}
-
 .book-table > span {
     margin-left: 1rem;
 }
@@ -340,6 +336,7 @@ main form img {
     align-items: center;
     padding: 0 1rem;
     gap: .5em;
+    margin: 2rem 0 3rem;
 }
 
 .book-table-carousel span {
@@ -465,5 +462,17 @@ main form img {
         margin-left: 0;
         margin-bottom: .25rem;
         padding: .25rem .5rem 0;
+    }
+
+    .book-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
