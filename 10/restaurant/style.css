@@ -402,6 +402,10 @@ main form img {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 480px) {
+    main h1 {
+        display: inline-block;
+    }
+
     main form input {
         width: 75%;
     }
