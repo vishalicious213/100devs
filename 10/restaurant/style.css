@@ -102,8 +102,10 @@ header > img {
 /* MAIN */
 
 main {
-    background-image: url("img/bk-02.jpg");
+    background-image: url("img/bk-main.png");
     padding: 2rem 0;
+    border-top: 1px solid #FFAA4D;
+    border-bottom: 1px solid #FF8800;
 }
 
 main h1 {
@@ -111,7 +113,7 @@ main h1 {
     font-size: 2.75rem;
     font-weight: 400;
     color: #FF8800;
-    background-color: rgba(37, 37, 37, .5);
+    /* background-color: rgba(37, 37, 37, .5); */
     padding: .5rem 1rem;
 }
 
@@ -412,13 +414,35 @@ main form button {
 
     main form button {
         width: 25%;
-        margin: -.5rem;
+        margin-left: -.5rem;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
 }
 
 @media screen and (min-width: 640px) {
+    .main-head {
+        display: flex;
+        align-items: center;
+    }
+
+    main h1 {
+        margin-bottom: 0;
+    }
+
+    main form {
+        display: inline-block;
+    }
+
+    main form input, main form button {
+        width: 100%;
+        border-radius: .25rem;
+    }
+
+    main form button {
+        margin-left: 0;
+    }
+
     .orders-images {
         flex-wrap: nowrap;
         gap: 1.5rem;
@@ -481,6 +505,14 @@ main form button {
     }
 
     .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
