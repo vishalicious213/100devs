@@ -142,16 +142,16 @@ main form button {
     color: #F5F5F5;
 }
 
-main form img {
-    width: 1rem;
-}
-
 .social-media {
-    margin-top: 2rem;
+    margin: 2rem 0 0 1rem;
 }
 
 .social-media span {
     margin-right: 1.75rem;
+}
+
+.social-media img {
+    width: 1rem;
 }
 
 /* ABOUT US */
