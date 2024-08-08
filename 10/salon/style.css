@@ -2,6 +2,11 @@
     font-family: "Cinzel", serif;
 }
 
+.mulish-font {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+}
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -24,7 +29,7 @@ h2 {
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: .9rem;
     line-height: 1.75rem;
     color: #737373;
@@ -100,15 +105,18 @@ header {
     margin-bottom: 1rem;
 }
 
-.quality p {
-    font-size: .9rem;
-    line-height: 1.75rem;
-    color: #737373;
-}
-
 /* MOMENTUM SECTION */
 
 .momentum {
     background-color: #f3f4f6;
-    padding: 5rem 2rem;
+    padding: 7rem 2rem;
+}
+
+.momentum h2 {
+    margin-bottom: 2rem;
+}
+
+.momentum button {
+    margin-top: 2rem;
+    padding: 1rem 0;
 }
