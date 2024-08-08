@@ -28,6 +28,11 @@ h2 {
     line-height: 4rem;
 }
 
+h4 {
+    font-size: 1.45rem;
+    font-weight: 400;
+}
+
 p {
     font-family: "Mulish", sans-serif;
     font-size: .9rem;
@@ -153,4 +158,13 @@ header {
     border: 2px solid black;
     width: 2rem;
     margin: 1.5rem auto 3rem;
+}
+
+.stylers span {
+    display: inline-block;
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: #737373;
 }
