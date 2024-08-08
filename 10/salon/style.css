@@ -109,27 +109,35 @@ header {
 
 .momentum {
     background-color: #f3f4f6;
-    padding: 7rem 2rem;
+    padding: 7rem 1rem;
 }
 
 .momentum h2 {
     margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.momentum p {
+    padding: 0 1rem;
 }
 
 .momentum button {
-    margin: 2.75rem 0;
+    margin: 2.75rem 1rem;
     padding: 1rem 0;
 }
 
-.momentum img {
-    width: 100%;
-}
-
 .momentum div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding-top: 56.25%;
     background-image: url("img/video.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.momentum img {
+    margin-top: -50%;
 }
