@@ -80,19 +80,19 @@ header {
     padding: 10rem 2.5rem 5rem;
 }
 
-.quality img {
-    outline: 1px solid red;
+.quality section {
+    margin-bottom: 2rem;
 }
 
 .quality h3 {
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 2rem;
-    /* margin-bottom: 1.1rem; */
+    margin-bottom: 1rem;
 }
 
 .quality p {
-
     font-size: .9rem;
     line-height: 1.75rem;
+    color: #737373;
 }
