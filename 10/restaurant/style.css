@@ -270,8 +270,13 @@ main form button {
 }
 
 .orders-images img {
-    border: 1px solid orange;
+    border: 1px solid #FF8800;
     width: 40%;
+}
+
+.orders-images img:hover {
+    cursor: pointer;
+    border: 1px solid #FFAA4D;
 }
 
 .orders-nav {
@@ -447,7 +452,6 @@ main form button {
     }
 
     .orders-images {
-        /* flex-wrap: nowrap; */
         gap: 1.5rem;
     }
     
