@@ -205,3 +205,13 @@ header {
     padding: 6rem 1rem;
     text-align: center;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.gallery img {
+    width: 100%;
+}
