@@ -21,3 +21,14 @@ header {
 .widescreen-nav {
     display: none;
 }
+
+/* HERO SECTION */
+
+.hero {
+    width: 100%;
+    padding-top: 56.25%;
+    background-image: url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
