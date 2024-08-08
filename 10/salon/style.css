@@ -67,3 +67,15 @@ header {
 .hero button {
     margin-top: 1.5rem;
 }
+
+/* QUALITY SECTION */
+
+.quality {
+    outline: 1px solid red;
+    text-align: center;
+    padding: 10rem 2rem 5rem;
+}
+
+.quality h3 {
+    font-weight: 600;
+}
