@@ -99,6 +99,10 @@ header > img {
     padding: .25rem;
 }
 
+.nav-cart-search img:hover {
+    border: 2px solid #FFAA4D;
+}
+
 /* MAIN */
 
 main {
@@ -141,6 +145,10 @@ main form button {
     padding: .5rem;
     background-color: #FF8800;
     color: #F5F5F5;
+}
+
+main form button:hover {
+    cursor: pointer;
 }
 
 .social-media {
@@ -249,6 +257,10 @@ main form button {
 .specialty a {
     color: #F5F5F5;
     text-decoration: none;
+}
+
+.specialty a:hover {
+    cursor: pointer;
 }
 
 /* ORDERS */
