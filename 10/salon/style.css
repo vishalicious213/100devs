@@ -39,4 +39,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-left: 2rem;
+}
+
+.hero h1 {
+    color: white;
+    margin-top: -40%;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 4rem;
 }
