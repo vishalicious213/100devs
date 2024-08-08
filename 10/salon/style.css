@@ -42,10 +42,10 @@ p {
 
 button {
     background-color: black;
-    color: white;
-    padding: .5rem 1rem;
+    color: #f3f4f6;
+    padding: 1rem 1.5rem;
     text-transform: uppercase;
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 /* HEADER */
@@ -88,6 +88,7 @@ header {
 
 .hero button {
     margin-top: 1.5rem;
+    padding: .5rem 1rem;
 }
 
 /* QUALITY SECTION */
@@ -175,4 +176,25 @@ header {
     margin-top: .5rem;
     text-transform: uppercase;
     color: #737373;
+}
+
+/* OFFER SECTION */
+
+.offer {
+    background-color: #f3f4f6;
+    width: 100%;
+    padding: 5rem 2rem 7rem 7rem;
+}
+
+.offer h2 {
+    font-size: 1.5rem;
+}
+
+.offer p {
+    font-family: "Cinzel", serif;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
 }
