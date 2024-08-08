@@ -198,3 +198,10 @@ header {
     color: black;
     margin-bottom: 1rem;
 }
+
+/* LOOKBOOK SECTION */
+
+.lookbook {
+    padding: 6rem 1rem;
+    text-align: center;
+}
