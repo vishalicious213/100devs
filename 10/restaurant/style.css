@@ -258,12 +258,15 @@ main form button {
 }
 
 .orders-images {
-    /* outline: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.orders-images-2 {
+    display: none;
 }
 
 .orders-images img {
@@ -372,6 +375,7 @@ main form button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 800px;
 }
 
 .testimonials img {
@@ -443,7 +447,7 @@ main form button {
     }
 
     .orders-images {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         gap: 1.5rem;
     }
     
@@ -554,5 +558,9 @@ main form button {
     .nav-cart-search img {
         margin: 0 .75rem;
         padding: .25rem;
+    }
+
+    .orders-images-2 {
+        display: inline-block;
     }
 }
