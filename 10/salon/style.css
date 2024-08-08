@@ -160,7 +160,16 @@ header {
     margin: 1.5rem auto 3rem;
 }
 
-.stylers span {
+.styler {
+    margin-top: 3rem;
+}
+
+.styler img {
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.styler span {
     display: inline-block;
     font-family: "Mulish", sans-serif;
     font-size: .9rem;
