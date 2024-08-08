@@ -113,7 +113,6 @@ main h1 {
     font-size: 2.75rem;
     font-weight: 400;
     color: #FF8800;
-    /* background-color: rgba(37, 37, 37, .5); */
     padding: .5rem 1rem;
 }
 
@@ -512,6 +511,14 @@ main form button {
 }
 
 @media screen and (min-width: 720px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .widescreen-nav {
+        display: flex;
+    }
+
     main {
         display: flex;
         flex-direction: column;
