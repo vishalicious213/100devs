@@ -141,3 +141,10 @@ header {
 .momentum img {
     margin-top: -50%;
 }
+
+/* STYLERS SECTION */
+
+.stylers {
+    text-align: center;
+    padding: 6rem 2rem;
+}
