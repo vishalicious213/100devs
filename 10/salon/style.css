@@ -205,7 +205,7 @@ header {
 /* LOOKBOOK SECTION */
 
 .lookbook {
-    padding: 6rem 1rem;
+    padding: 6rem 1rem 7rem;
     text-align: center;
 }
 
@@ -229,7 +229,6 @@ header {
 }
 
 footer {
-    outline: 1px solid red;
     background-color: black;
     color: #f3f4f6;
     padding: 2.75rem 2rem 0;
@@ -274,6 +273,10 @@ footer p {
     margin-bottom: .75rem;
 }
 
+.popular-posts section:last-child {
+    border-bottom: none;
+}
+
 .popular-posts section > img {
     width: 3rem;
     margin: 0 1rem .75rem 0;
@@ -302,6 +305,10 @@ footer p {
 }
 
 /* lookbook */
+
+.footer-lookbook-container {
+    outline: 1px solid red;
+}
 
 .footer-lookbook {
     display: flex;
