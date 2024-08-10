@@ -253,6 +253,8 @@ footer p {
     line-height: 1.55rem;
 }
 
+/* contact info */
+
 .footer-contact-info p {
     display: flex;
     align-items: center;
@@ -264,6 +266,8 @@ footer p {
     height: 1rem;
     margin-right: 1rem;
 }
+
+/* popular posts */
 
 .popular-posts section {
     display: flex;
@@ -298,6 +302,8 @@ footer p {
     margin-right: .5rem;
 }
 
+/* lookbook */
+
 .footer-lookbook {
     display: flex;
     flex-wrap: wrap;
@@ -307,6 +313,8 @@ footer p {
 .footer-lookbook img {
     width: 4.75rem;
 }
+
+/* social media icons */
 
 .social {
     display: flex;
@@ -324,6 +332,8 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+/* copyright & nav */
 
 .end {
     display: flex;
