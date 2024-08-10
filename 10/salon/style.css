@@ -223,7 +223,14 @@ header {
 /* FOOTER */
 
 footer {
+    outline: 1px solid red;
     background-color: black;
     color: #f3f4f6;
+    padding: 2rem;
 }
 
+footer .separator {
+    border: 2px solid #f3f4f6;
+    width: 2rem;
+    margin: 1.5rem 0;
+}
