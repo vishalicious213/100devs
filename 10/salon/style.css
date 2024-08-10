@@ -226,7 +226,7 @@ footer {
     outline: 1px solid red;
     background-color: black;
     color: #f3f4f6;
-    padding: 2.75rem 2rem;
+    padding: 2.75rem 2rem 0;
 }
 
 footer div > section {
@@ -304,6 +304,7 @@ footer p {
 .social {
     display: flex;
     color: black;
+    margin-bottom: 1rem;
 }
 
 .social-icon {
@@ -321,6 +322,32 @@ footer p {
     cursor: pointer;
 }
 
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #272727;
+    padding: 2rem;
+}
+
 small {
     font-family: "Mulish", sans-serif;
+    margin-bottom: 1.75rem;
+}
+
+.end nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.end nav a {
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    color: #f3f4f6;
+    text-decoration: none;
+}
+
+.end nav a:hover {
+    cursor: pointer;
 }
