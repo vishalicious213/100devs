@@ -258,8 +258,15 @@ footer p {
     margin-right: 1rem;
 }
 
-.popular-post {
-    outline: 1px solid red;
+.popular-posts section {
+    display: flex;
+    border-bottom: 1px solid #272727;
+    margin-bottom: .75rem;
+}
+
+.popular-posts section > img {
+    width: 3rem;
+    margin: 0 1rem .75rem 0;
 }
 
 .popular-post h4, .popular-post span {
@@ -269,6 +276,7 @@ footer p {
 
 .popular-post h4 {
     color: white;
+    margin: .25rem 0 .5rem 0;
 }
 
 .popular-post span {
