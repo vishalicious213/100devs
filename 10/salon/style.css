@@ -28,6 +28,10 @@ h2 {
     line-height: 4rem;
 }
 
+h3 {
+    font-weight: 400;
+}
+
 h4 {
     font-size: 1.45rem;
     font-weight: 400;
@@ -215,3 +219,11 @@ header {
 .gallery img {
     width: 100%;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: #f3f4f6;
+}
+
