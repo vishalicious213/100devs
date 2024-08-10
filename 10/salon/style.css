@@ -98,7 +98,6 @@ header {
 /* QUALITY SECTION */
 
 .quality {
-    outline: 1px solid red;
     text-align: center;
     padding: 10rem 2.5rem 5rem;
 }
@@ -132,7 +131,7 @@ header {
 
 .momentum button {
     margin: 2.75rem 1rem;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
 }
 
 .momentum div {
