@@ -302,5 +302,21 @@ footer p {
 }
 
 .social {
-    color: white;
+    display: flex;
+    color: black;
+}
+
+.social-icon {
+    border-radius: 50%;
+    background-color: #f3f4f6;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    cursor: pointer;
 }
