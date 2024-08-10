@@ -226,11 +226,21 @@ footer {
     outline: 1px solid red;
     background-color: black;
     color: #f3f4f6;
-    padding: 2rem;
+    padding: 2.75rem 2rem;
+}
+
+footer section {
+    margin-bottom: 2rem;
+    width: 60%;
 }
 
 footer .separator {
     border: 2px solid #f3f4f6;
     width: 2rem;
     margin: 1.5rem 0;
+}
+
+footer p {
+    color: #f3f4f6;
+    line-height: 1.55rem;
 }
