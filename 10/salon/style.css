@@ -81,10 +81,11 @@ header img {
 .hero {
     width: 100%;
     padding-top: 56.25%;
+    padding-bottom: 16.5%;
     background-image: url("img/hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 130%;
+    background-position: top;
     padding-left: 2rem;
 }
 
@@ -105,7 +106,7 @@ header img {
 
 .quality {
     text-align: center;
-    padding: 10rem 2.5rem 5rem;
+    padding: 6rem 2.5rem 5rem;
 }
 
 .quality section {
