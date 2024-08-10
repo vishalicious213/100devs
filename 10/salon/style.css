@@ -222,6 +222,13 @@ header {
 
 /* FOOTER */
 
+.popular-posts section > img,
+.footer-lookbook img:hover,
+.social-icon:hover,
+.end nav a:hover {
+    cursor: pointer;
+}
+
 footer {
     outline: 1px solid red;
     background-color: black;
@@ -318,10 +325,6 @@ footer p {
     align-items: center;
 }
 
-.social-icon:hover {
-    cursor: pointer;
-}
-
 .end {
     display: flex;
     flex-direction: column;
@@ -346,8 +349,4 @@ small {
     font-size: .9rem;
     color: #f3f4f6;
     text-decoration: none;
-}
-
-.end nav a:hover {
-    cursor: pointer;
 }
