@@ -229,7 +229,7 @@ footer {
     padding: 2.75rem 2rem;
 }
 
-footer section {
+footer div > section {
     margin-bottom: 3rem;
     width: 60%;
 }
@@ -256,4 +256,29 @@ footer p {
     width: 1rem;
     height: 1rem;
     margin-right: 1rem;
+}
+
+.popular-post {
+    outline: 1px solid red;
+}
+
+.popular-post h4, .popular-post span {
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+}
+
+.popular-post h4 {
+    color: white;
+}
+
+.popular-post span {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.popular-post span img {
+    width: .8rem;
+    height: .8rem;
+    margin-right: .5rem;
 }
