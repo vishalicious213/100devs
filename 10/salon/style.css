@@ -320,3 +320,7 @@ footer p {
 .social-icon:hover {
     cursor: pointer;
 }
+
+small {
+    font-family: "Mulish", sans-serif;
+}
