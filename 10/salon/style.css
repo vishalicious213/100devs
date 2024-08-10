@@ -290,3 +290,13 @@ footer p {
     height: .8rem;
     margin-right: .5rem;
 }
+
+.footer-lookbook {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.footer-lookbook img {
+    width: 4.75rem;
+}
