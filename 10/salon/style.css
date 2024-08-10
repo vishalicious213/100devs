@@ -307,7 +307,7 @@ footer p {
 /* lookbook */
 
 .footer-lookbook-container {
-    outline: 1px solid red;
+    margin-bottom: 1.5rem;
 }
 
 .footer-lookbook {
