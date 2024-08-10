@@ -57,9 +57,15 @@ button {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 2rem;
+}
+
+header img {
+    width: 20%;
+    height: 20%;
 }
 
 .mobile-nav {
