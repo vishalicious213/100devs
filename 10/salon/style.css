@@ -485,4 +485,18 @@ small {
         width: 50%;
         padding: 0 1.5rem;
     }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 2.25rem 2rem;
+    }
+    
+    header img {
+        width: 10%;
+        height: 10%;
+    }
 }
