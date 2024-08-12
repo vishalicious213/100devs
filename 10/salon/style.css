@@ -230,7 +230,7 @@ header img {
     width: 100%;
 }
 
-.gallery-770 {
+.gallery-770, .gallery-992 {
     display: none;
 }
 
@@ -456,5 +456,23 @@ small {
 
     .styler img {
         width: 100%;
+    }
+
+    .gallery-770 {
+        display: none;
+    }
+
+    .gallery-992 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+        margin-top: 4rem;
+    }
+
+    .gallery-992 div {
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+        width: 32.485%;
     }
 }
