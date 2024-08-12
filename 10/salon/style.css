@@ -446,3 +446,15 @@ small {
         width: 55%;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .styler-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .styler img {
+        width: 100%;
+    }
+}
