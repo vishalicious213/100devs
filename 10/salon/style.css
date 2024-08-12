@@ -388,3 +388,12 @@ small {
         width: 45%;
     }
 }
+
+@media screen and (min-width: 770px) {
+    .offer {
+        background-color: #f3f4f6;
+        background-image: url("img/offer-bk.jpg");
+        max-width: 990px;
+        margin: 0 auto;
+    }
+}
