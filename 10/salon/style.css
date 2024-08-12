@@ -230,6 +230,10 @@ header img {
     width: 100%;
 }
 
+.gallery-770 {
+    display: none;
+}
+
 /* FOOTER */
 
 .popular-posts section > img,
@@ -409,5 +413,31 @@ small {
 
     .offer p {
         max-width: 30rem;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .gallery-770 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+    }
+
+    .gallery-770 > img {
+        width: 49%;
+    }
+
+    
+    .gallery-flex {
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+        gap: .75rem;
+    }
+
+    .gallery-move-up {
+        margin-top: -.75rem;
     }
 }
