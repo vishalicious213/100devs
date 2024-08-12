@@ -491,6 +491,7 @@ small {
     .quality {
         display: flex;
         flex-wrap: wrap;
+        margin-top: -16rem;
     }
     
     .quality section {
@@ -538,6 +539,7 @@ small {
         padding: 2rem;
         width: 14.5rem;
         display: block;
+        position: relative;
     }
 
     .book h4 {
@@ -560,5 +562,6 @@ small {
         color: black;
         padding: 1rem 0;
         width: 100%;
+        border: none;
     }
 }
