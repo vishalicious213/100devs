@@ -423,6 +423,7 @@ small {
         display: flex;
         flex-wrap: wrap;
         gap: .75rem;
+        margin-top: 4rem;
     }
 
     .gallery-770 > img {
@@ -439,5 +440,9 @@ small {
 
     .gallery-move-up {
         margin-top: -.75rem;
+    }
+
+    .styler img {
+        width: 55%;
     }
 }
