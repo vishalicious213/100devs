@@ -394,6 +394,11 @@ small {
 }
 
 @media screen and (min-width: 770px) {
+    .button-modifier {
+        display: inline;
+        margin-right: .5rem;
+    }
+
     .offer {
         background-color: #f3f4f6;
         background-image: url("img/offer-bk.jpg");
