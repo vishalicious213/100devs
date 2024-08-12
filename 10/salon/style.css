@@ -528,6 +528,11 @@ small {
     }
 
     .book {
+        background-color: black;
+        color: white;
+        margin-left: -1.5rem;
+        padding: 1.5rem;
+        width: 14.5rem;
         display: block;
     }
 }
