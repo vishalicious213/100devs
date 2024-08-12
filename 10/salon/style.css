@@ -373,3 +373,18 @@ small {
     color: #f3f4f6;
     text-decoration: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 677px) {
+    footer > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    footer div > section {
+        margin-bottom: 0;
+        width: 45%;
+    }
+}
