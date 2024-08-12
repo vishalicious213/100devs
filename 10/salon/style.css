@@ -52,6 +52,10 @@ button {
     font-size: .8rem;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .button-modifier {
     display: none;
 }
@@ -530,8 +534,8 @@ small {
     .book {
         background-color: black;
         color: white;
-        margin-left: -1.5rem;
-        padding: 1.5rem;
+        margin: 2rem 0 0 -1.5rem;
+        padding: 2rem;
         width: 14.5rem;
         display: block;
     }
@@ -545,9 +549,16 @@ small {
         font-family: "Cinzel", serif;
         font-size: 1.25rem;
         font-weight: 600;
-        line-height: 2rem;
+        line-height: 2.5rem;
         letter-spacing: .05rem;
         margin-top: 1.5rem;
         color: white;
+    }
+
+    .book button {
+        background-color: white;
+        color: black;
+        padding: 1rem 0;
+        width: 100%;
     }
 }
