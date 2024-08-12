@@ -475,4 +475,14 @@ small {
         gap: .75rem;
         width: 32.485%;
     }
+
+    .quality {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .quality section {
+        width: 50%;
+        padding: 0 1.5rem;
+    }
 }
