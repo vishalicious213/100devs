@@ -513,7 +513,7 @@ small {
         line-height: 6rem;
     }
 
-    .hero p {
+    .hero > p {
         display: block;
         font-family: "Cinzel", serif;
         letter-spacing: .15rem;
@@ -534,5 +534,20 @@ small {
         padding: 1.5rem;
         width: 14.5rem;
         display: block;
+    }
+
+    .book h4 {
+        font-size: 1.15rem;
+    }
+
+    .book p {
+        display: inline-block;
+        font-family: "Cinzel", serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 2rem;
+        letter-spacing: .05rem;
+        margin-top: 1.5rem;
+        color: white;
     }
 }
