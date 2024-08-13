@@ -620,4 +620,14 @@ small {
     .styler {
         width: 23%;
     }
+
+    footer > div {
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    footer div > section {
+        margin-bottom: 0;
+        width: 23.5%;
+    }
 }
