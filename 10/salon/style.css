@@ -634,4 +634,15 @@ small {
     .social {
         margin-top: -6rem;
     }
+
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    small {
+        margin-bottom: 0;
+    }
 }
