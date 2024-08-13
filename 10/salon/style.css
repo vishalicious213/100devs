@@ -684,6 +684,11 @@ small {
         width: 33%;
     }
 
+    .momentum {
+        padding: 7rem 15%;
+    }
+
+
     .stylers {
         padding: 6rem 1rem;
     }
