@@ -110,7 +110,7 @@ header img {
     padding: .5rem 1rem;
 }
 
-.hero p, .hero span, .book {
+.hero p, .hours, .book {
     display: none;
 }
 
@@ -525,7 +525,7 @@ small {
         margin-top: 2rem;
     }
 
-    .hero span {
+    .hours {
         display: inline-block;
         position: absolute;
         right: 3rem;
@@ -572,5 +572,18 @@ small {
         padding: 1rem 0;
         width: 100%;
         border: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero h1,
+    .hero > p,
+    .hero > button{
+        margin-left: -2rem;
+    }
+
+    .hero > button {
+        display: inline-block;
+        font-size: .9rem;
     }
 }
