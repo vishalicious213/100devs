@@ -709,6 +709,7 @@ small {
 
     .styler-gallery {
         gap: 1rem;
+        padding: 0 15%
     }
 
     .styler {
