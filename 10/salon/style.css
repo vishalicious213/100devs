@@ -603,3 +603,9 @@ small {
         padding: 7rem 2rem;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .quality section {
+        width: 33%;
+    }
+}
