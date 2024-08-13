@@ -71,6 +71,10 @@ header {
     padding: 2rem;
 }
 
+.logo-reverse {
+    display: none;
+}
+
 header img {
     width: 20%;
     height: 20%;
@@ -628,6 +632,29 @@ small {
 }
 
 @media screen and (min-width: 1200px) {
+    header {
+        background-color: white;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-reverse {
+        display: inline-block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .widescreen-nav {
+        outline: 1px solid red;
+        display: flex;
+        color: white;
+    }
+
+
     .quality section {
         width: 33%;
     }
