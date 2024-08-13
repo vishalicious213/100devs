@@ -495,7 +495,8 @@ small {
     .quality {
         display: flex;
         flex-wrap: wrap;
-        margin-top: -16rem;
+        margin: -16rem auto 0;
+        max-width: 1190px;
     }
     
     .quality section {
