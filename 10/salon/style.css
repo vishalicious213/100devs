@@ -649,11 +649,6 @@ small {
         display: none;
     }
 
-    header nav {
-        outline: 1px solid orange;
-        width: 60%;
-    }
-
     .widescreen-nav {
         display: flex;
         justify-content: space-between;
@@ -664,16 +659,24 @@ small {
     .widescreen-nav ul {
         list-style: none;
     }
-
+    
     .widescreen-nav a {
-        color: black;
-        text-decoration: none;
+        display: inline-block;
         font-family: "Roboto", sans-serif;
+        font-size: .9rem;
+        text-decoration: none;
+        text-align: center;
+        color: #272727;
+        width: 6rem;
+    }
+
+    .widescreen-nav .nav-img {
+        width: 4rem;
     }
 
     .widescreen-nav img {
-        width: 2rem;
-        height: 2.5rem;
+        width: 1.5rem;
+        height: 2rem;
     }
 
     .quality section {
