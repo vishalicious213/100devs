@@ -403,6 +403,10 @@ small {
         margin-bottom: 0;
         width: 45%;
     }
+
+    .social {
+        margin-top: -3rem;
+    }
 }
 
 @media screen and (min-width: 770px) {
@@ -575,12 +579,10 @@ small {
     }
 
     footer > div {
-        outline: 1px solid red;
         gap: 2rem;
     }
 
     footer div > section {
-        outline: 1px solid orange;
         width: 30.5%;
     }
 }
@@ -641,10 +643,6 @@ small {
         width: 23.5%;
     }
 
-    .social {
-        margin-top: -6rem;
-    }
-
     .end {
         display: flex;
         flex-direction: row;
@@ -654,5 +652,10 @@ small {
 
     small {
         margin-bottom: 0;
+    }
+
+    
+    .social {
+        margin-top: -7rem;
     }
 }
