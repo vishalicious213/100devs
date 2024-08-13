@@ -498,7 +498,7 @@ small {
         display: flex;
         flex-direction: column;
         gap: .75rem;
-        width: 32.485%;
+        width: 32%;
     }
 
     .quality {
