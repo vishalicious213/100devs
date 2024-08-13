@@ -709,3 +709,20 @@ small {
         margin-top: -7rem;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .hero h1,
+    .hero > p,
+    .hero > button{
+        margin-left: 12rem;
+    }
+
+    .book {
+        margin: 4rem 0 0 12rem;
+        width: 18rem;
+    }
+
+    .break {
+        display: none;
+    }
+}
