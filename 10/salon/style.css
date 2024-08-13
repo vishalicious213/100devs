@@ -717,6 +717,10 @@ small {
         margin-left: 12rem;
     }
 
+    .hero {
+        background-size: 100%;
+    }
+
     .book {
         margin: 4rem 0 0 12rem;
         width: 18rem;
