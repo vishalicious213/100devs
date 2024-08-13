@@ -630,4 +630,8 @@ small {
         margin-bottom: 0;
         width: 23.5%;
     }
+
+    .social {
+        margin-top: -6rem;
+    }
 }
