@@ -598,4 +598,8 @@ small {
     .quality {
         margin-top: -9rem;
     }
+
+    .momentum {
+        padding: 7rem 2rem;
+    }
 }
