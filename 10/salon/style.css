@@ -591,7 +591,11 @@ small {
         font-size: .9rem;
     }
 
+    .book {
+        margin: 1rem 0 0 -1.5rem;
+    }
+
     .quality {
-        margin-top: -11rem;
+        margin-top: -9rem;
     }
 }
