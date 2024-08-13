@@ -634,6 +634,7 @@ small {
 @media screen and (min-width: 1200px) {
     header {
         background-color: white;
+        padding: 2rem 5rem;
     }
 
     .logo {
@@ -648,12 +649,27 @@ small {
         display: none;
     }
 
+    header nav {
+        outline: 1px solid orange;
+        width: 60%;
+    }
+
     .widescreen-nav {
         outline: 1px solid red;
         display: flex;
+        justify-content: space-between;
         color: white;
     }
 
+    .widescreen-nav ul {
+        list-style: none;
+    }
+
+    .widescreen-nav a {
+        color: black;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+    }
 
     .quality section {
         width: 33%;
