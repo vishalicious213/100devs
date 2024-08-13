@@ -585,6 +585,17 @@ small {
     footer div > section {
         width: 30.5%;
     }
+
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    small {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -643,18 +654,6 @@ small {
         width: 23.5%;
     }
 
-    .end {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 2rem 0;
-    }
-
-    small {
-        margin-bottom: 0;
-    }
-
-    
     .social {
         margin-top: -7rem;
     }
