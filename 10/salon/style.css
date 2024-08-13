@@ -46,7 +46,7 @@ p {
 
 button {
     background-color: black;
-    color: #f3f4f6;
+    color: #efeaee;
     padding: 1rem 1.5rem;
     text-transform: uppercase;
     font-size: .8rem;
@@ -110,11 +110,7 @@ header img {
     padding: .5rem 1rem;
 }
 
-.hero p {
-    display: none;
-}
-
-.book {
+.hero p, .hero span, .book {
     display: none;
 }
 
@@ -139,7 +135,7 @@ header img {
 /* MOMENTUM SECTION */
 
 .momentum {
-    background-color: #f3f4f6;
+    background-color: #efeaee;
     padding: 7rem 1rem;
 }
 
@@ -207,7 +203,7 @@ header img {
 /* OFFER SECTION */
 
 .offer {
-    background-color: #f3f4f6;
+    background-color: #efeaee;
     width: 100%;
     padding: 5rem 2rem 7rem 7rem;
 }
@@ -257,7 +253,7 @@ header img {
 
 footer {
     background-color: black;
-    color: #f3f4f6;
+    color: #efeaee;
     padding: 2.75rem 2rem 0;
 }
 
@@ -267,14 +263,14 @@ footer div > section {
 }
 
 footer .separator {
-    border: 2px solid #f3f4f6;
+    border: 2px solid #efeaee;
     border-radius: .25rem;
     width: 2rem;
     margin: 1.5rem 0;
 }
 
 footer p {
-    color: #f3f4f6;
+    color: #efeaee;
     line-height: 1.55rem;
 }
 
@@ -357,7 +353,7 @@ footer p {
 
 .social-icon {
     border-radius: 50%;
-    background-color: #f3f4f6;
+    background-color: #efeaee;
     width: 2.75rem;
     height: 2.75rem;
     margin: .25rem;
@@ -390,7 +386,7 @@ small {
 .end nav a {
     font-family: "Mulish", sans-serif;
     font-size: .9rem;
-    color: #f3f4f6;
+    color: #efeaee;
     text-decoration: none;
 }
 
@@ -416,7 +412,7 @@ small {
     }
 
     .offer {
-        background-color: #f3f4f6;
+        background-color: #efeaee;
         background-image: url("img/offer-bk.jpg");
         max-width: 990px;
         margin: 0 auto;
@@ -510,6 +506,7 @@ small {
 
     .hero {
         background-size: 105%;
+        position: relative;
     }
     
     .hero h1 {
@@ -523,9 +520,21 @@ small {
         font-family: "Cinzel", serif;
         letter-spacing: .15rem;
         font-weight: 600;
-        color: #f3f4f6;
+        color: #efeaee;
         margin-left: 1.5rem;
         margin-top: 2rem;
+    }
+
+    .hero span {
+        display: inline-block;
+        position: absolute;
+        right: 3rem;
+        top: 13%;
+        writing-mode: vertical-lr;
+        font-size: .9rem;
+        font-weight: 600;
+        letter-spacing: .2rem;
+        color: #efeaee;
     }
 
     .hero > button {
