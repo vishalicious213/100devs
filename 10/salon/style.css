@@ -466,7 +466,7 @@ small {
         width: 55%;
     }
 
-    footer > div {
+    footer > div, .end {
         max-width: 1120px;
         margin: auto;
     }
