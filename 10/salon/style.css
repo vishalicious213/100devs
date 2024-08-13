@@ -157,7 +157,7 @@ header img {
     padding: 1rem 2rem;
 }
 
-.momentum div {
+.video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,8 +686,22 @@ small {
 
     .momentum {
         padding: 7rem 15%;
+        display: flex;
     }
 
+    .momentum-text {
+        width: 47%;
+        margin-right: 3%;
+    }
+
+    .momentum img {
+        margin-top: 0;
+    }
+
+    .video {
+        padding-top: 0;
+        width: 50%;
+    }
 
     .stylers {
         padding: 6rem 1rem;
