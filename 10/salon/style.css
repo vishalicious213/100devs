@@ -573,6 +573,16 @@ small {
         width: 100%;
         border: none;
     }
+
+    footer > div {
+        outline: 1px solid red;
+        gap: 2rem;
+    }
+
+    footer div > section {
+        outline: 1px solid orange;
+        width: 30.5%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
