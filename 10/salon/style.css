@@ -608,4 +608,16 @@ small {
     .quality section {
         width: 33%;
     }
+
+    .stylers {
+        padding: 6rem 1rem;
+    }
+
+    .styler-gallery {
+        gap: 1rem;
+    }
+
+    .styler {
+        width: 23%;
+    }
 }
