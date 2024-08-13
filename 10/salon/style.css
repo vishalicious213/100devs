@@ -430,6 +430,10 @@ small {
     .offer p {
         max-width: 30rem;
     }
+    
+    .lookbook {
+        padding: 6rem 15% 7rem;
+    }
 
     .gallery {
         display: none;
