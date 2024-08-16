@@ -6,13 +6,9 @@ function check() {
 
   if (day === "TUESDAY" || day === "FRIDAY") {
     console.log('class')
-  }
-
-  if (day === "SATURDAY" || day === "SUNDAY") {
+  } else if (day === "SATURDAY" || day === "SUNDAY") {
     console.log('weekend')
-  }
-
-  if (day === "TUESDAY" || day === "FRIDAY") {
-    console.log('class')
+  } else {
+    console.log('weekday')
   }
 }
