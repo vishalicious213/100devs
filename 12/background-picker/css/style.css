@@ -3,22 +3,24 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-h1, h2{
+h1, h2 {
   text-align: center;
 }
-img{
+
+img {
   display: block;
   height: 300px;
   margin: 0 auto;
 }
-ul{
+
+ul {
   width: 100px;
   height: 200px;
   border: 3px solid black;
@@ -26,7 +28,8 @@ ul{
   list-style: none;
   padding: 0;
 }
-li{
+
+li {
   width: 94px;
   height: 65px;
 }
@@ -34,12 +37,26 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
-}
-#green{
+#black {}
+
+#red {}
+
+#orange {}
+
+#yellow {}
+
+#green {
   background: rgba(0,253,81,1);
 }
-#blue{
+
+#blue {
   background: rgba(0,254,255);
 }
+
+#indigo {
+  background: rgba(241,63,247,1);
+}
+
+#violet {}
+
+#white {}
