@@ -22,4 +22,9 @@ const ul = document.querySelector("ul")
 
 ul.addEventListener("click", (e) => {
   console.log(e.target.id)
+
+  if (e.target.id === "black") {
+    document.querySelector('body').style.backgroundColor = "black"
+    document.querySelector('body').style.color = 'white'
+  }
 })
