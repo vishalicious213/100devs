@@ -57,4 +57,9 @@ ul.addEventListener("click", (e) => {
     document.querySelector('body').style.backgroundColor = "indigo"
     document.querySelector('body').style.color = 'white'
   }
+
+  if (e.target.id === "violet") {
+    document.querySelector('body').style.backgroundColor = "violet"
+    document.querySelector('body').style.color = 'white'
+  }
 })
