@@ -1,15 +1,11 @@
-/******************************************
-/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
-/*******************************************/
-
 /* Box Model Hack */
 * {
   box-sizing: border-box;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+
+/* LAYOUT */
+
 h1, h2 {
   text-align: center;
 }
@@ -21,42 +17,55 @@ img {
 }
 
 ul {
-  width: 100px;
-  height: 200px;
-  border: 3px solid black;
+  display: flex;
+  gap: .25rem;
+  width: 27rem;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
 
 li {
-  width: 94px;
-  height: 65px;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid grey;
+  border-radius: 50%;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-#black {}
+/* ADDITIONAL STYLES */
 
-#red {}
+#black {
+  background: black;
+}
 
-#orange {}
+#red {
+  background: red;
+}
 
-#yellow {}
+#orange {
+  background: orange;
+}
+
+#yellow {
+  background: yellow;
+}
 
 #green {
-  background: rgba(0,253,81,1);
+  background: green;
 }
 
 #blue {
-  background: rgba(0,254,255);
+  background: blue;
 }
 
 #indigo {
-  background: rgba(241,63,247,1);
+  background: indigo;
 }
 
-#violet {}
+#violet {
+  background: violet;
+}
 
-#white {}
+#white {
+  background: white;
+}
