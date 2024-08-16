@@ -5,10 +5,10 @@ function check() {
   day = day.toUpperCase()
 
   if (day === "TUESDAY" || day === "FRIDAY") {
-    console.log('class')
+    document.getElementById("placeToSee").innerText = "Class Day!"
   } else if (day === "SATURDAY" || day === "SUNDAY") {
-    console.log('weekend')
+    document.getElementById("placeToSee").innerText = "Weekend!"
   } else {
-    console.log('weekday')
+    document.getElementById("placeToSee").innerText = "Boring Day"
   }
 }
