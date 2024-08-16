@@ -4,7 +4,15 @@ function check() {
   let day = document.querySelector('#day').value
   day = day.toUpperCase()
 
- if (day === "TUESDAY" || day === "FRIDAY") {
-  console.log('class')
- }
+  if (day === "TUESDAY" || day === "FRIDAY") {
+    console.log('class')
+  }
+
+  if (day === "SATURDAY" || day === "SUNDAY") {
+    console.log('weekend')
+  }
+
+  if (day === "TUESDAY" || day === "FRIDAY") {
+    console.log('class')
+  }
 }
