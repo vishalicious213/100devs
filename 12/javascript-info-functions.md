@@ -56,3 +56,9 @@ Make two variants of checkAge:
 
 1. Using a question mark operator ?
 2. Using OR ||
+
+```js
+function checkAge(age) {
+    age === 18 ? true : confirm("Did parents allow you?")
+}
+```
