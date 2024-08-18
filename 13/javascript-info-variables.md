@@ -64,3 +64,7 @@ const BIRTHDAY = '18.04.1982'; // make birthday uppercase?
 
 const AGE = someCode(BIRTHDAY); // make age uppercase?
 ```
+
+It could be, depending on the context of the program. If this program is only going to be used by one person, then that person's birthday can be thought of as a "capitalized" constant that never changes. It's "hard-coded". An argument could be made that "age" could also be hard-coded because it's output is a calculation based on a hard-coded variable.
+
+However, if this program were to be used by multiple people, then their birthdays aren't necessarily "hard-coded" even if they're "known". In this case, they can be constants, but lowercase.
