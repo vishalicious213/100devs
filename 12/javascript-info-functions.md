@@ -102,3 +102,14 @@ Create a web-page that prompts for `x` and `n`, and then shows the result of `po
 Run the demo
 
 P.S. In this task the function should support only natural values of `n`: integers up from `1`.
+
+```js
+function pow(x, n) {
+    if (n < 1) {
+        console.log("Exponent should be an integer and a positive number")
+        return
+    }
+
+    return x ** n
+}
+```
