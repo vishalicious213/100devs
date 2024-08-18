@@ -31,3 +31,5 @@ function checkAge(age) {
 ```
 
 Is there any difference in the behavior of these two variants?
+
+No, there's no difference as to how the function will run w/o the `else`. Some people even recommend using multiple `if` statements for clarity instead of chaining `if...else` statements when possible.
