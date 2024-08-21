@@ -16,10 +16,28 @@ main {
 }
 
 section {
-  width: 45%;
+  width: 100%;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.celcius {
+  background: lightskyblue;
+  background-image: linear-gradient(to right, lightskyblue, lightcoral);
+}
+
+.fahrenheit {
+  background: lightcoral;
+  background-image: linear-gradient(to right, lightcoral, lightskyblue);
 }
 
 label {
   display: block;
   width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  section {
+    width: 45%;
+  }
 }
