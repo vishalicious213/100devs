@@ -5,8 +5,9 @@
 
 const toFButton = document.getElementById("to-fahrenheit")
 const celciusInput = document.getElementById("temp-celcius")
+const converted = document.getElementById("converted-temp")
 
 toFButton.addEventListener("click", () => {
-    const converted = celciusInput.value * 9/5 + 32
-    console.log(converted)
+    const cToF = celciusInput.value * 9/5 + 32
+    converted.innerText = cToF
 })
