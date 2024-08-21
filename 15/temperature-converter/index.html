@@ -11,12 +11,26 @@
 	<body>
 		<h1>Temperature Converter</h1>
 
-		<form>
-			<label for="temp-celcius">Enter a temperature in Celcius:</label>
-			<input id="temp-celcius" type="number">
-		</form>
+		<main>
+			<section class="celcius">
+				<form>
+					<label for="temp-celcius">Enter a temperature in Celcius:</label>
+					<input id="temp-celcius" type="number">
+				</form>
+		
+				<button id="to-fahrenheit" type="button" name="button">Convert to F°</button>
+			</section>
 
-		<button id="to-fahrenheit" type="button" name="button">Convert to F°</button>
+			<section class="fahrenheit">
+				<form>
+					<label for="temp-fahren">Enter a temperature in Fahrenheit:</label>
+					<input id="temp-fahren" type="number">
+				</form>
+		
+				<button id="to-celcius" type="button" name="button">Convert to C°</button>
+			</section>
+	
+		</main>
 
 		<h2 id="converted-temp"></h2>
 
