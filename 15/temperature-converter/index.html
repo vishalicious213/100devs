@@ -4,12 +4,21 @@
 		<meta charset="utf-8">
 		<meta name="description" content="This is where your description goes">
 		<meta name="keywords" content="one, two, three">
-		<title>Title in the tab</title>
+		<title>Temperature Converter</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<h1>Temperature Converter</h1>
+
+		<form>
+			<label for="temp-celcius">Enter a temperature in Celcius:</label>
+			<input id="temp-celcius" type="number">
+		</form>
+
+		<button id="to-fahrenheit" type="button" name="button">Convert to F°</button>
+
+		<h2 id="converted-temp"></h2>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
