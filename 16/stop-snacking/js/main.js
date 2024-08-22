@@ -7,6 +7,7 @@ button.addEventListener("click", stopSnacking)
 
 function stopSnacking() {
     const input = Number(document.querySelector("input").value)
+    stop.innerText = ""
 
     for (let i = 1; i <= input; i++) {
         console.log("STOP!")
