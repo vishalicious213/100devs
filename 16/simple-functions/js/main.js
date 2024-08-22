@@ -1,9 +1,19 @@
 //---Easy
 //create a function that subtracts two numbers and alerts the difference
+function subtract(num1, num2) {
+    alert(num1 - num2)
+}
 
 //create a function that divides three numbers and console logs the quotient
+function divideThree(num1, num2, num3) {
+    console.log(num1 / num2 / num3)
+}
 
 //create a function that multiplys three numbers and returns the product
+function multiplyThree(num1, num2, num3) {
+    return num1 * num2 * num3
+}
+
 
 //---Medium
 //create a function that takes in three numbers. Add the first two numbers and return the remainder of dividing the sum of the first two numbers by the third number
