@@ -5,8 +5,8 @@ function twentyOne() {
     const savageSays = document.getElementById("savageSays")
 
     for (let x=1; x <= 21; x++) {
-        savageSays.innerText += x
-        console.log(x)
+        savageSays.innerText += "21"
+        console.log("21")
     }
 }
 
