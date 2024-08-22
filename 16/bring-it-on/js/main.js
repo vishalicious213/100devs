@@ -41,8 +41,16 @@ function multiplyThree(num1, num2, num3) {
     }
 }
 
-multiplyThree(5, 2, 2)
-multiplyThree(5, 2, 3)
+// multiplyThree(5, 2, 2)
+// multiplyThree(5, 2, 3)
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+
+function repeatWord(word, num) {
+    for (let i = 1; i <= num; i++) {
+        console.log(word)
+    }
+}
+
+repeatWord("Tsu", 3)
