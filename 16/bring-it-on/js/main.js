@@ -17,13 +17,21 @@ function subtractFour(num1, num2, num3, num4) {
 
 // Create a function that divides one number by another and returns the remainder
 function divvy(num1, num2) {
-    return num1 / num2
+    return num1 % num2
 }
 
 console.log(divvy(10, 2))
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
+function addTwo(num1, num2) {
+    if (num1 + num2 > 50) {
+        alert("Jumanji")
+    }
+}
+
+addTwo(1, 1)
+addTwo(51, 1)
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
