@@ -30,10 +30,19 @@ function addTwo(num1, num2) {
     }
 }
 
-addTwo(1, 1)
-addTwo(51, 1)
+// addTwo(1, 1)
+// addTwo(51, 1)
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+
+function multiplyThree(num1, num2, num3) {
+    if ((num1 * num2 * num3) % 3 === 0) {
+        alert("ZEBRA")
+    }
+}
+
+multiplyThree(5, 2, 2)
+multiplyThree(5, 2, 3)
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
