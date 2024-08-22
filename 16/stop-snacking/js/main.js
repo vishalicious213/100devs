@@ -10,7 +10,6 @@ function stopSnacking() {
     stop.innerText = ""
 
     for (let i = 1; i <= input; i++) {
-        console.log("STOP!")
         stop.innerText += " STOP!"
     }
 }
