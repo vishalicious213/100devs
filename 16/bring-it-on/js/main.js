@@ -1,12 +1,26 @@
 // *Variables*
 // Create a variable and console log the value
+const variable = "Variable"
+console.log(variable)
 
 // Create a variable, add 10 to it, and alert the value
+let num = 213
+// alert(num + 10)
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
+function subtractFour(num1, num2, num3, num4) {
+    alert(num1 - num2 - num3 - num4)
+}
+
+// subtractFour(10, 9, 8, 7)
 
 // Create a function that divides one number by another and returns the remainder
+function divvy(num1, num2) {
+    return num1 / num2
+}
+
+console.log(divvy(10, 2))
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
