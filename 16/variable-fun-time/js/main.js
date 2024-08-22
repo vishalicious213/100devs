@@ -11,12 +11,17 @@ console.log(num)
 
 //--- Medium
 //create a variable that holds a value from the input
+let ddrValue = document.getElementById("danceDanceRevolution").value
 
 //add 25 to that number
+ddrValue += 25
 
 //alert that number
+alert(ddrValue)
+
 
 //--- Hard
 //create a variable that holds the h1
 
 //add an event listener to that element that console logs the sum of the two previous variables
+console.log("TEST")
