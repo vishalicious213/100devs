@@ -16,3 +16,11 @@ nums.forEach((num, i) => {nums[i] = num + 3})
 console.log(nums)
 
 //Find the average of all the numbers from question three
+
+function average(arr) {
+    let total = 0
+    arr.forEach(num => total += num)
+    return total / arr.length
+}
+
+console.log(average(nums)) // remember, the previous question updated the values of nums by +3
