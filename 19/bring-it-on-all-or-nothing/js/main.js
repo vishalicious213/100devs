@@ -16,8 +16,11 @@ function maths(num1, num2, num3, num4) {
 console.log(maths(2, 3, 4, 5))
 
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
+function mathPower(num1, num2) {
+    console.log(Math.pow(num1, num2))
+}
 
-
+mathPower(3, 5)
 // *Conditionals*
 // Create a function that takes in a boolean and a string. If the boolean is true, alert the string. If the boolean is false, console log the string
 
