@@ -1,4 +1,9 @@
 //Create an array of movies with at least three movies.
+const movies = [
+    "Fist of the North Star",
+    "Blade Runner",
+    "Terminator 2"
+]
 
 //Using the array from above, store the first movie in a variable
 
