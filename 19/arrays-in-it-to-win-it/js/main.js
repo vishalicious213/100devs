@@ -6,6 +6,7 @@ const movies = [
 ]
 
 //Using the array from above, store the first movie in a variable
+let movie = movies[0]
 
 //Get the length of the original array and store it in a new variable
 
