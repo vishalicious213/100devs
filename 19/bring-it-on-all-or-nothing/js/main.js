@@ -1,6 +1,7 @@
 // *Variables*
 // Declare a variable, assign it a boolean, and alert the value
-
+let bool = true
+alert(bool)
 
 // Declare a variable, reassign it to your favorite color, and console log the value
 
