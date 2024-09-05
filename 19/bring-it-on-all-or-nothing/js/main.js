@@ -9,7 +9,11 @@ console.log(favColor)
 
 // *Functions*
 // Create a function that takes in 4 numbers and returns the sum of the first 3 numbers divided by the fourth. Return the result. Call the function.
+function maths(num1, num2, num3, num4) {
+    return (num1 + num2 + num3) / num4
+}
 
+console.log(maths(2, 3, 4, 5))
 
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
 
