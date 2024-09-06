@@ -9,14 +9,10 @@ function camelize(str) {
     let words = str.split("-")
 
     // if first word is a dash, remove it
-    if (words[0] === "") {
-        words.shift()
-    }
+    if (words[0] === "") words.shift()
 
     // capitalize words starting from 2nd word
-    words.forEach((word, i) => {
-        words[i] = word.charAt(0).toUpperCase() + word.slice(1)
-    })
+    words.forEach((word, i) => words[i] = word.charAt(0).toUpperCase() + word.slice(1))
 
     // join words back into string
     console.log(words.join(""))
