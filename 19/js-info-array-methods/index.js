@@ -39,7 +39,19 @@ console.log(filterRange([5, 3, 8, 1], 1, 4))
 // The function should only modify the array. It should not return anything.
 
 function filterRangeInPlace(arr, a, b) {
-    console.log(arr.filter(num => num >= a && num <= b))
+    // console.log(arr.filter(num => num >= a && num <= b))
+    arr.forEach((num, i) => {
+        if (num < a) {
+            console.log("smaller", num, i)
+            arr.splice(i, 1)
+        }
+
+        if (num > b) {
+            console.log("bigger", num, i)
+            arr.splice(i, 1)
+        }
+    })
+
     console.log(arr)
 }
 
