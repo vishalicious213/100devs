@@ -49,3 +49,10 @@ function filterRangeInPlace(arr, a, b) {
 }
 
 filterRangeInPlace([5, 3, 8, 1], 1, 4)
+
+
+// 4. Sort in decreasing order
+
+let arrToSort = [5, 2, 1, -10, 8]
+
+console.log(arrToSort.sort((a, b) => b - a))
