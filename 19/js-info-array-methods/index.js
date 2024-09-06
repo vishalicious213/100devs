@@ -7,16 +7,19 @@
 function camelize(str) {
     // make array of words, split on the dashes
     let words = str.split("-")
-    console.log(words)
+
+    // if first word is a dash, remove it
+    if (words[0] === "") {
+        words.shift()
+    }
 
     // capitalize words starting from 2nd word
-    // nums.forEach((num, i) => {nums[i] = num + 3})
     words.forEach((word, i) => {
         words[i] = word.charAt(0).toUpperCase() + word.slice(1)
     })
-    console.log(words)
 
     // join words back into string
+    console.log(words.join(""))
 }
 
 camelize("background-color")
