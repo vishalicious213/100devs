@@ -56,3 +56,19 @@ filterRangeInPlace([5, 3, 8, 1], 1, 4)
 let arrToSort = [5, 2, 1, -10, 8]
 
 console.log(arrToSort.sort((a, b) => b - a))
+
+
+// 5. Copy and sort array
+// We have an array of strings arr. We’d like to have a sorted copy of it, but keep arr unmodified.
+//Create a function copySorted(arr) that returns such a copy.
+
+let stringArr = ["HTML", "JavaScript", "CSS"]
+
+function copySorted(arr) {
+    return [...arr].sort()
+}
+
+let sorted = copySorted(stringArr)
+
+console.log( sorted ) // CSS, HTML, JavaScript
+console.log( stringArr ) // HTML, JavaScript, CSS (no changes)
