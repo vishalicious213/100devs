@@ -88,6 +88,7 @@ let names = [users.map(user => user.name)]
 
 console.log( names )
 
+
 // 8. Map to objects
 // You have an array of user objects, each one has name, surname and id.
 // Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
@@ -105,6 +106,7 @@ let usersMapped = peeps.map(peep => ({
 
 console.log( usersMapped[0].id ) // 1
 console.log( usersMapped[0].fullName ) // Juan Smith
+
 
 // 9. Sort users by age
 // Write the function sortByAge(users) that gets an array of objects with the age property and sorts them by age.
@@ -125,3 +127,23 @@ sortByAge(aged)
 console.log(aged[0].name) // Kara
 console.log(aged[1].name) // Ella
 console.log(aged[2].name) // Vish
+
+
+// 11. Get average age
+// Write the function getAverageAge(users) that gets an array of objects with property age and returns the average age.
+// The formula for the average is (age1 + age2 + ... + ageN) / N.
+
+let mika = { name: "Mika", age: 4 };
+let miko = { name: "Miko", age: 7 };
+let z = { name: "Z", age: 9 };
+
+let ageArr = [ mika, miko, z ];
+
+function getAverageAge(users) {
+    let average = 0
+
+    users.forEach(user => average += user.age)
+    return average / users.length
+}
+
+console.log( getAverageAge(ageArr) )
