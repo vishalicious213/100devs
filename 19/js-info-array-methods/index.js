@@ -78,9 +78,9 @@ console.log( stringArr ) // HTML, JavaScript, CSS (no changes)
 
 // You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
 
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 28 };
+let john = { name: "John", age: 25 }
+let pete = { name: "Pete", age: 30 }
+let mary = { name: "Mary", age: 28 }
 
 let users = [ john, pete, mary ];
 
@@ -92,9 +92,9 @@ console.log( names )
 // You have an array of user objects, each one has name, surname and id.
 // Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
 
-let juan = { name: "Juan", surname: "Smith", id: 1 };
-let pele = { name: "Pele", surname: "Hunt", id: 2 };
-let mari = { name: "Mari", surname: "Key", id: 3 };
+let juan = { name: "Juan", surname: "Smith", id: 1 }
+let pele = { name: "Pele", surname: "Hunt", id: 2 }
+let mari = { name: "Mari", surname: "Key", id: 3 }
 
 let peeps = [ juan, pele, mari ];
 
@@ -105,3 +105,23 @@ let usersMapped = peeps.map(peep => ({
 
 console.log( usersMapped[0].id ) // 1
 console.log( usersMapped[0].fullName ) // Juan Smith
+
+// 9. Sort users by age
+// Write the function sortByAge(users) that gets an array of objects with the age property and sorts them by age.
+
+let vish = { name: "Vish", age: 49 }
+let ella = { name: "Ella", age: 12 }
+let kara = { name: "Kara", age: 7 }
+
+let aged = [ ella, vish, kara ]
+
+function sortByAge(arr) {
+    arr.sort((a, b) => a.age - b.age)
+}
+
+sortByAge(aged)
+
+// now: [kara, ella, vish]
+console.log(aged[0].name) // Kara
+console.log(aged[1].name) // Ella
+console.log(aged[2].name) // Vish
