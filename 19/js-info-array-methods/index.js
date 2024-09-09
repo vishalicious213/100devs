@@ -111,6 +111,7 @@ console.log(calc.calculate("10 / 5"))
 calc.addFunc("**", (a, b) => a ** b)
 console.log(calc.calculate("5 ** 5"))
 
+
 // 7. Map to names
 
 // You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
@@ -166,6 +167,26 @@ console.log(aged[1].name) // Ella
 console.log(aged[2].name) // Vish
 
 
+// 10. Shuffle an array
+// Write the function shuffle(array) that shuffles (randomly reorders) elements of the array.
+// Multiple runs of shuffle may lead to different orders of elements.
+
+// This is the Fisher-Yates shuffle. It will walk the array in the reverse order and swap each element with a random one before it:
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1)) // random index from 0 to i
+
+      // swap elements array[i] and array[j]
+      // we use "destructuring assignment" syntax to achieve that
+      // you'll find more details about that syntax in later chapters
+      // same can be written as:
+      // let t = array[i]; array[i] = array[j]; array[j] = t
+        [array[i], array[j]] = [array[j], array[i]]
+    }
+}
+
+
 // 11. Get average age
 // Write the function getAverageAge(users) that gets an array of objects with property age and returns the average age.
 // The formula for the average is (age1 + age2 + ... + ageN) / N.
@@ -187,8 +208,8 @@ console.log( getAverageAge(ageArr) )
 
 
 // 12. Filter unique array members
-//  Let arr be an array.
-//  Create a function unique(arr) that should return an array with unique items of arr.
+// Let arr be an array.
+// Create a function unique(arr) that should return an array with unique items of arr.
 
 function unique(arr) {
     return arr.filter((item, i) => arr.indexOf(item) === i)
