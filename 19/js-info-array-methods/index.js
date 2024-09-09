@@ -93,11 +93,23 @@ function Calculator() {
 
         return this.methods[func](a, b)
     }
+
+    this.addFunc = function(symbol, math) {
+        this.methods[symbol] = math
+    }
 }
 
 let calc = new Calculator
 console.log(calc.calculate("1 + 1"))
 
+calc.addFunc("*", (a, b) => a * b)
+console.log(calc.calculate("2 * 3"))
+
+calc.addFunc("/", (a, b) => a / b)
+console.log(calc.calculate("10 / 5"))
+
+calc.addFunc("**", (a, b) => a ** b)
+console.log(calc.calculate("5 ** 5"))
 
 // 7. Map to names
 
