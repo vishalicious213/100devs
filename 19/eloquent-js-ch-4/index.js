@@ -10,8 +10,19 @@ function range(start, end) {
 
     for (let i = start; i <= end; i++) {
         nums.push(i)
-        console.log(nums)
     }
+
+    return nums
 }
 
-range(2, 5)
+function sum(arr) {
+    let total = 0
+
+    for (let num of arr) {
+        total += num
+    }
+    
+    return total
+}
+
+console.log(sum(range(1, 10)))
