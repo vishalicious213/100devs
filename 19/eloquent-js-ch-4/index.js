@@ -73,3 +73,24 @@ console.log(myArray)
 
 console.log(reverseArrayInPlace(numsArray))
 console.log(numsArray)
+
+
+// 3. Write a function arrayToList that builds up a list structure like the one shown when given [1, 2, 3] as argument. Also write a listToArray function that produces an array from a list. Add the helper functions prepend, which takes an element and a list and creates a new list that adds the element to the front of the input list, and nth, which takes a list and a number and returns the element at the given position in the list (with zero referring to the first element) or undefined when there is no such element.
+
+function arrayToList(arr) {
+    let newList = arr.map((item, index) => {
+        return {
+            [item]: {
+                "value": item,
+                "rest": {
+                    "value": index < arr.length -1 ? item + 1 : null
+                }
+            }
+        }
+    })
+
+    return newList
+}
+
+let arrForList = [1, 2, 3]
+console.log(arrayToList(arrForList))
