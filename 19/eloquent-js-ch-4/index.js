@@ -53,4 +53,23 @@ function reverseArray(arr) {
     return reversed
 }
 
-console.log(reverseArray(["A", "B", "C"]))
+function reverseArrayInPlace(arr) {
+    let temp
+
+    for (let i = 0; i < arr.length / 2; i++) { // loop through 1/2 of the arr
+        temp = arr[i] // temp = position 0 and then moves up
+        arr[i] = arr[arr.length - 1 - i] // left position = right position
+        arr[arr.length - 1 - i] = temp // right position = temp (left position)
+    }
+
+    return arr
+}
+
+let myArray = ["A", "B", "C"]
+let numsArray = [1, 2, 3, 4, 5]
+
+console.log(reverseArray(myArray))
+console.log(myArray)
+
+console.log(reverseArrayInPlace(numsArray))
+console.log(numsArray)
