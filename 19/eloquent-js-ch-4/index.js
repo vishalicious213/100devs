@@ -92,5 +92,13 @@ function arrayToList(arr) {
     return newList
 }
 
+function listToArray(list) {
+    return list.map((item, index) => item[index + 1].value)
+}
+
 let arrForList = [1, 2, 3]
-console.log(arrayToList(arrForList))
+let listForArr = arrayToList(arrForList)
+let arrFromList = listToArray(listForArr)
+
+console.log(listForArr)
+console.log(arrFromList)
