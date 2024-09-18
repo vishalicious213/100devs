@@ -56,6 +56,8 @@ const inventors = [
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const sortedPeople = people.sort()
+    console.log(sortedPeople)
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
