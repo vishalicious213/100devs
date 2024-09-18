@@ -75,4 +75,11 @@ console.log(sortedPeople)
 
 // 8. Reduce Exercise
 // Sum up the instances of each of these
-const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ]
+
+const vehicles = data.reduce((acc, vehicle) => {
+    acc[vehicle] = (acc[vehicle] || 0) + 1
+    return acc
+}, {})
+
+console.log(vehicles)
