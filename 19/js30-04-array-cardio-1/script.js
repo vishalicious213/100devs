@@ -52,6 +52,11 @@ const inventors = [
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+    const links = document.querySelectorAll(".md-category-group li a")
+    console.log(links)
+
+    const de = links.map(link => link.textContent).filter(street => street.includes("de"))
+    console.log(de)
 
 
     // 7. sort Exercise
