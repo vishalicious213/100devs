@@ -16,7 +16,7 @@ const inventors = [
     { first: 'Sarah E.', last: 'Goode', year: 1855, passed: 1905 },
     { first: 'Lise', last: 'Meitner', year: 1878, passed: 1968 },
     { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 }
-    ];
+]
 
     const people = [
     'Bernhard, Sandra', 'Bethea, Erin', 'Becker, Carl', 'Bentsen, Lloyd', 'Beckett, Samuel', 'Blake, William', 'Berger, Ric', 'Beddoes, Mick', 'Beethoven, Ludwig',
@@ -24,46 +24,55 @@ const inventors = [
     'Benn, Tony', 'Benson, Leana', 'Bent, Silas', 'Berle, Milton', 'Berry, Halle', 'Biko, Steve', 'Beck, Glenn', 'Bergman, Ingmar', 'Black, Elk', 'Berio, Luciano',
     'Berne, Eric', 'Berra, Yogi', 'Berry, Wendell', 'Bevan, Aneurin', 'Ben-Gurion, David', 'Bevel, Ken', 'Biden, Joseph', 'Bennington, Chester', 'Bierce, Ambrose',
     'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
-    ];
-    
-    // Array.prototype.filter()
-    // 1. Filter the list of inventors for those who were born in the 1500's
-    const fifteens = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
-    console.log(fifteens)
-
-    // Array.prototype.map()
-    // 2. Give us an array of the inventors first and last names
-    const inventorNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
-    console.log(inventorNames)
-
-    // Array.prototype.sort()
-    // 3. Sort the inventors by birthdate, oldest to youngest
-    const birthYears = inventors.sort((a, b) => a.year - b.year)
-    console.log(birthYears)
-
-    // Array.prototype.reduce()
-    // 4. How many years did all the inventors live all together?
-    const totalYearsLived = inventors.reduce((total, current) => total + (current.passed - current.year), 0)
-    console.log(totalYearsLived)
-
-    // 5. Sort the inventors by years lived
-    const lifespan = inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year))
-    console.log(lifespan)
-
-    // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-    // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-    const links = document.querySelectorAll(".md-category-group li a")
-    console.log(links)
-
-    const de = links.map(link => link.textContent).filter(street => street.includes("de"))
-    console.log(de)
+]
 
 
-    // 7. sort Exercise
-    // Sort the people alphabetically by last name
-    const sortedPeople = people.sort()
-    console.log(sortedPeople)
+// Array.prototype.filter()
+// 1. Filter the list of inventors for those who were born in the 1500's
+const fifteens = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
+console.log(fifteens)
 
-    // 8. Reduce Exercise
-    // Sum up the instances of each of these
-    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+// Array.prototype.map()
+// 2. Give us an array of the inventors first and last names
+const inventorNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
+console.log(inventorNames)
+
+
+// Array.prototype.sort()
+// 3. Sort the inventors by birthdate, oldest to youngest
+const birthYears = inventors.sort((a, b) => a.year - b.year)
+console.log(birthYears)
+
+
+// Array.prototype.reduce()
+// 4. How many years did all the inventors live all together?
+const totalYearsLived = inventors.reduce((total, current) => total + (current.passed - current.year), 0)
+console.log(totalYearsLived)
+
+
+// 5. Sort the inventors by years lived
+const lifespan = inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year))
+console.log(lifespan)
+
+
+// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+// Run these in the console on the Wiki page
+// const links = document.querySelectorAll(".md-category-group li a")
+// console.log(links)
+
+// const de = links.map(link => link.textContent).filter(street => street.includes("de"))
+// console.log(de)
+
+
+// 7. sort Exercise
+// Sort the people alphabetically by last name
+const sortedPeople = people.sort()
+console.log(sortedPeople)
+
+
+// 8. Reduce Exercise
+// Sum up the instances of each of these
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
