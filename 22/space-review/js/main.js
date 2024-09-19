@@ -18,5 +18,11 @@ console.log(square(nums))
 //Create a function that takes string
 //Print the reverse of that string to the console
 
+function rev(str) {
+    return str.split("").reverse().join("")
+}
+
+console.log(rev("Tsu"))
+
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
