@@ -2,6 +2,10 @@
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
 
+const nums = [5, 17, 75, 12, 27, 67]
+let sum = nums.reduce((total, num) => total += num, 0)
+console.log(sum)
+
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
