@@ -1,6 +1,10 @@
 // *Variables*
 // Declare a variable and assign it to your fav drink as a string. Make sure there is no whitespace on either side of the string, and print the value to the console
 
+let favDrink = " Amaretto Sour "
+favDrink = favDrink.trim()
+console.log(favDrink)
+
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
 
 let str = "Bob Duck apple dog"
