@@ -9,6 +9,12 @@ console.log(sum)
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
+function square(arr) {
+    return arr.map(num => num * num)
+}
+
+console.log(square(nums))
+
 //Create a function that takes string
 //Print the reverse of that string to the console
 
