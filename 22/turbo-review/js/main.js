@@ -3,6 +3,9 @@
 
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
 
+let str = "Bob Duck apple dog"
+console.log(str.search("apple"))
+
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
 
