@@ -11,7 +11,6 @@ function Stopwatch() {
         }
 
         running = true
-
         startTime = new Date()
     }
 
@@ -21,12 +20,22 @@ function Stopwatch() {
         }
 
         running = false
-
         endTime = new Date()
 
         const seconds = (endTime.getTime() - startTime.getTime()) / 1000
         duration += seconds
     }
 
-    this.reset = function() {}
+    this.reset = function() {
+        startTime = null
+        endTime = null
+        running = false
+        duration = 0
+    }
+
+    Object.defineProperty(this, "duration", {
+        get: function() {
+            return duration
+        }
+    })
 }
