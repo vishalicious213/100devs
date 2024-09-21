@@ -15,7 +15,18 @@ function Stopwatch() {
         startTime = new Date()
     }
 
-    this.stop = function() {}
+    this.stop = function() {
+        if (!running) {
+            throw new Error("Stopwatch has not started")
+        }
+
+        running = false
+
+        endTime = new Date()
+
+        const seconds = (endTime.getTime() - startTime.getTime()) / 1000
+        duration += seconds
+    }
 
     this.reset = function() {}
 }
