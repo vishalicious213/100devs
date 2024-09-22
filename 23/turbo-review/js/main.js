@@ -6,6 +6,9 @@ alert(str.endsWith("?"))
 
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 
+let jrString = "I am looking for jr. dev positions."
+console.log(jrString.replaceAll("jr. dev", "software engineering"))
+
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
 
