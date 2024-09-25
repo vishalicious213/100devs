@@ -48,5 +48,24 @@ dayOfTheWeek("Sunday")
 dayOfTheWeek("Monday")
 dayOfTheWeek("Splatterday")
 
+
+function dayOfTheWeek2(day) {
+    let weekend = ["saturday", "sunday"]
+    let weekday = ["monday", "tuesday", "wednesday", "thursday", "friday"]
+    day = day.toLowerCase()
+
+    if (weekend.includes(day)) {
+        alert("Weekend")
+    } else if (weekday.includes(day)) {
+        alert("Weekday")
+    } else {
+        alert("Try again!")
+    }
+}
+
+dayOfTheWeek2("Sunday")
+dayOfTheWeek2("Monday")
+dayOfTheWeek2("Splatterday")
+
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
