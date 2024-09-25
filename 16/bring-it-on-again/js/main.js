@@ -1,5 +1,7 @@
 // *Variables*
 // Declare a variable, assign it a value, and alert the value
+const alertThis = "Alert this value"
+alert(alertThis)
 
 // Create a variable, divide it by 10, and console log the value
 
