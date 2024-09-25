@@ -9,3 +9,4 @@
 - 08: Source: https://vish213-source.netlify.app/
 - 10: Restaurant: https://vish213-grill.netlify.app/
 - 10: Salon: https://vish213-salon.netlify.app/
+- 23: Calculator: https://vish213-100devs-calculator.netlify.app/
