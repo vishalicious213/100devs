@@ -9,6 +9,10 @@ console.log(1440 / 10)
 
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
+function multiplyThreeNums(num1, num2, num3) {
+    alert (num1 * num2 * num3)
+}
+multiplyThreeNums(517, 1227, 213)
 
 // Create a function that takes in 4 numbers. Add the first two numbers and subtract the next two. Console log the result
 
