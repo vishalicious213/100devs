@@ -1,0 +1,2 @@
+- 100Devs calculator deployed at: https://vish213-100devs-calculator.netlify.app/
+- Repo is at: https://github.com/vishalicious213/100devs-calculator
