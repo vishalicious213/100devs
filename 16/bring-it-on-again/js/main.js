@@ -34,6 +34,19 @@ anotherMathThing(4, 5, 6)
 anotherMathThing(1227, 517, 2)
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
+function dayOfTheWeek(day) {
+    if (["saturday", "sunday"].includes(day.toLowerCase())) {
+        alert("Weekend")
+    } else if (["monday", "tuesday", "wednesday", "thursday", "friday"].includes(day.toLowerCase())) {
+        alert("Weekday")
+    } else {
+        alert("Try again!")
+    }
+}
+
+dayOfTheWeek("Sunday")
+dayOfTheWeek("Monday")
+dayOfTheWeek("Splatterday")
 
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
