@@ -22,6 +22,16 @@ mathThing(517, 1227, 213, 144)
 
 // *Conditionals*
 // Create a function that takes in 3 numbers. Starting with 100 add the first number, subtract the second, and divide the third. If the value is greater then 25, console log "WE HAVE A WINNNA"
+function anotherMathThing(num1, num2, num3) {
+    if ((100 + num1 - num2) / num3 > 25) {
+        console.log("WE HAVE A WINNA")
+    } else {
+        console.log("NOT A WINNNA")
+    }
+}
+
+anotherMathThing(4, 5, 6)
+anotherMathThing(1227, 517, 2)
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
 
