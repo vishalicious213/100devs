@@ -15,6 +15,10 @@ function multiplyThreeNums(num1, num2, num3) {
 multiplyThreeNums(517, 1227, 213)
 
 // Create a function that takes in 4 numbers. Add the first two numbers and subtract the next two. Console log the result
+function mathThing(num1, num2, num3, num4) {
+    console.log(num1 + num2 - num3 - num4)
+}
+mathThing(517, 1227, 213, 144)
 
 // *Conditionals*
 // Create a function that takes in 3 numbers. Starting with 100 add the first number, subtract the second, and divide the third. If the value is greater then 25, console log "WE HAVE A WINNNA"
