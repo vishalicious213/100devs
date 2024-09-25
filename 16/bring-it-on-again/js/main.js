@@ -69,3 +69,10 @@ dayOfTheWeek2("Splatterday")
 
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
+function countByThree(num) {
+    for (i = 1; i <= num; i+= 3) {
+        console.log(i)
+    }
+}
+
+countByThree(31)
