@@ -4,6 +4,8 @@ const alertThis = "Alert this value"
 alert(alertThis)
 
 // Create a variable, divide it by 10, and console log the value
+const divideThis = 1440
+console.log(1440 / 10)
 
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
