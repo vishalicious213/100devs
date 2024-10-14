@@ -25,21 +25,28 @@ function renderDrinks(arr) {
     let drinksToRender = ""
 
     arr.map(drink => {
-        let ingredients = []
+        let ingredients = ""
 
         for (let i = 1; i <= 15; i++) {
-            console.log(drink[`strMeasure${i}`], drink[`strIngredient${i}`])
+            if (drink[`strIngredient${i}`] !== null) {
+                console.log(drink[`strMeasure${i}`], drink[`strIngredient${i}`])
+                ingredients += `
+                <p>${drink[`strMeasure${i}`]} ${drink[`strIngredient${i}`]}</p>
+                `
+            }
         }
-    })
 
-    arr.map(drink => `
-        <section class="drink">
-            <h2>${drink.strDrink}</h2>
-            <p>${drink.strGlass}</p>
-            <p>${drink.strInstructions}</p>
-            <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
-        </section>
-    `).join("")
+        drinksToRender += `
+            <section class="drink">
+                <h1>${drink.strDrink}</h1>
+                <p>${drink.strGlass}</p>
+                <h2>Ingredients:</h2>
+                ${ingredients}
+                <p>${drink.strInstructions}</p>
+                <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
+            </section>
+        `
+    })
 
     drinksSection.innerHTML = drinksToRender
 }
