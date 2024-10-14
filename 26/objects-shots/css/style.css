@@ -5,6 +5,10 @@
   font-family: "Raleway", Helvetica, sans-serif;
 }
 
+body > h1, input {
+  margin-left: .5rem;
+}
+
 .drink h1 {
   font-size: 1.5rem;
   margin-bottom: .25rem;
