@@ -41,8 +41,8 @@ function renderDrinks(arr) {
 
         drinksToRender += `
             <section class="drink">
-                <h1>${drink.strDrink}</h1>
                 <div class="container">
+                    <h1>${drink.strDrink}</h1>
                     <p class="glass">${drink.strGlass}</p>
                     <h2>Ingredients:</h2>
                     <section class="ingredients">${ingredients}</section>
