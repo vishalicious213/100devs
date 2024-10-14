@@ -10,12 +10,10 @@ menu.addEventListener("click", menuClick)
 function menuClick(e) {
     // console.log(e.target.id)
     if (e.target.id === "name-btn") {
-        console.log("name")
         getData("s")
     }
 
     if (e.target.id === "spirit-btn") {
-        console.log("spirit")
         getData("i")
     }
 }
@@ -34,8 +32,13 @@ function getData(btn) {
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${searchTerm}`)
     .then(res => res.json())
     .then(data => {
-        console.log(data)
-        renderDrinks(data.drinks)
+        if (btn === "s") {
+            renderDrinks(data.drinks)
+        }
+    
+        if (btn === "i") {
+            console.log(data)
+        }
     })
     .catch(err => {
         console.log(`error ${err}`)
