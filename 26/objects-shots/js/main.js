@@ -9,19 +9,8 @@ function getDrink() {
     .then(res => res.json())
     .then(data => {
         console.log(data.drinks)
-        let drinks = data.drinks
-        drinksSection.innerHTML = ""
-
-        let renderDrinks = drinks.map(drink => `
-            <section class="drink">
-                <h2>${drink.strDrink}</h2>
-                <p>${drink.strGlass}</p>
-                <p>${drink.strInstructions}</p>
-                <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
-            </section>
-        `).join("")
-
-        drinksSection.innerHTML = renderDrinks
+        renderDrinks(data.drinks)
+        
         // document.querySelector("h2").innerText = data.drinks[0].strDrink
         // document.querySelector("img").src = data.drinks[0].strDrinkThumb
         // document.querySelector("h3").innerText = data.drinks[0].strInstructions
@@ -29,4 +18,19 @@ function getDrink() {
     .catch(err => {
         console.log(`error ${err}`)
     })
+}
+
+function renderDrinks(arr) {
+    drinksSection.innerHTML = ""
+
+    let drinksToRender = arr.map(drink => `
+        <section class="drink">
+            <h2>${drink.strDrink}</h2>
+            <p>${drink.strGlass}</p>
+            <p>${drink.strInstructions}</p>
+            <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
+        </section>
+    `).join("")
+
+    drinksSection.innerHTML = drinksToRender
 }
