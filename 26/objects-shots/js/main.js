@@ -22,8 +22,17 @@ function getDrink() {
 
 function renderDrinks(arr) {
     drinksSection.innerHTML = ""
+    let drinksToRender = ""
 
-    let drinksToRender = arr.map(drink => `
+    arr.map(drink => {
+        let ingredients = []
+
+        for (let i = 1; i <= 15; i++) {
+            console.log(drink[`strMeasure${i}`], drink[`strIngredient${i}`])
+        }
+    })
+
+    arr.map(drink => `
         <section class="drink">
             <h2>${drink.strDrink}</h2>
             <p>${drink.strGlass}</p>
