@@ -37,7 +37,9 @@ function renderDrinks(arr) {
             <section class="drink">
                 <div class="container">
                     <h1>${drink.strDrink}</h1>
-                    <p class="glass">${drink.strGlass}</p>
+                    <p class="detail">${drink.strCategory}</p>
+                    <p class="detail">${drink.strAlcoholic}</p>
+                    <p class="detail">${drink.strGlass}</p>
                     <h2>Ingredients:</h2>
                     <section class="ingredients">${ingredients}</section>
                     <p>${drink.strInstructions}</p>
