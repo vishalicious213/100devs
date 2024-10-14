@@ -2,17 +2,26 @@
 const menu = document.getElementById("menu")
 menu.addEventListener("click", testClick)
 
-document.querySelector("button").addEventListener("click", getDrink)
+// document.querySelector("button").addEventListener("click", getDrink)
 let drinksSection = document.getElementById("drinks")
 
 function testClick(e) {
-    console.log(e.target.id)
+    // console.log(e.target.id)
+    if (e.target.id === "name-btn") {
+        console.log("name")
+        getDrink("s")
+    }
+
+    if (e.target.id === "spirit-btn") {
+        console.log("spirit")
+        getDrink("i")
+    }
 }
 
-function getDrink() {
+function getDrink(btn) {
     let cocktail = document.querySelector("input").value
 
-    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`)
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${cocktail}`)
     .then(res => res.json())
     .then(data => {
         renderDrinks(data.drinks)
