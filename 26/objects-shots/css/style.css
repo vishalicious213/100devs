@@ -64,3 +64,21 @@ img{
     width: 45%;
   }
 }
+
+@media screen and (min-width: 720px) {
+  .drink {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .drink {
+    width: 23.5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .drink {
+    width: 19%;
+  }
+}
