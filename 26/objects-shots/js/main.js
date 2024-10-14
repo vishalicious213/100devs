@@ -42,10 +42,12 @@ function renderDrinks(arr) {
         drinksToRender += `
             <section class="drink">
                 <h1>${drink.strDrink}</h1>
-                <p>${drink.strGlass}</p>
-                <h2>Ingredients:</h2>
-                <section class="ingredients">${ingredients}</section>
-                <p>${drink.strInstructions}</p>
+                <div class="container">
+                    <p class="glass">${drink.strGlass}</p>
+                    <h2>Ingredients:</h2>
+                    <section class="ingredients">${ingredients}</section>
+                    <p>${drink.strInstructions}</p>
+                </div>
                 <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
             </section>
         `
