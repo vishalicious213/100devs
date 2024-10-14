@@ -13,11 +13,13 @@ function getDrink() {
         drinksSection.innerHTML = ""
 
         let renderDrinks = drinks.map(drink => `
-            <h2>${drink.strDrink}</h2>
-            <p>${drink.strGlass}</p>
-            <p>${drink.strInstructions}</p>
-            <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
-        `)
+            <section class="drink">
+                <h2>${drink.strDrink}</h2>
+                <p>${drink.strGlass}</p>
+                <p>${drink.strInstructions}</p>
+                <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
+            </section>
+        `).join("")
 
         drinksSection.innerHTML = renderDrinks
         // document.querySelector("h2").innerText = data.drinks[0].strDrink
