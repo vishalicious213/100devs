@@ -11,27 +11,27 @@ function menuClick(e) {
     // console.log(e.target.id)
     if (e.target.id === "name-btn") {
         console.log("name")
-        getDrink("s")
+        getData("s")
     }
 
     if (e.target.id === "spirit-btn") {
         console.log("spirit")
-        getDrink("i")
+        getData("i")
     }
 }
 
-function getDrink(btn) {
-    let cocktail = ""
+function getData(btn) {
+    let searchTerm = ""
 
     if (btn === "s") {
-        cocktail = document.getElementById("search-name").value
+        searchTerm = document.getElementById("search-name").value
     }
 
     if (btn === "i") {
-        cocktail = document.getElementById("search-spirit").value
+        searchTerm = document.getElementById("search-spirit").value
     }
 
-    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${cocktail}`)
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${searchTerm}`)
     .then(res => res.json())
     .then(data => {
         console.log(data)
