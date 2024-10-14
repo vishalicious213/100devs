@@ -19,11 +19,20 @@ function testClick(e) {
 }
 
 function getDrink(btn) {
-    let cocktail = document.querySelector("input").value
+    let cocktail = ""
+
+    if (btn === "s") {
+        cocktail = document.getElementById("search-name").value
+    }
+
+    if (btn === "i") {
+        cocktail = document.getElementById("search-spirit").value
+    }
 
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${cocktail}`)
     .then(res => res.json())
     .then(data => {
+        console.log(data)
         renderDrinks(data.drinks)
     })
     .catch(err => {
