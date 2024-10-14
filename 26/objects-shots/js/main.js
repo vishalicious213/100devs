@@ -37,7 +37,7 @@ function getData(btn) {
         }
     
         if (btn === "i") {
-            console.log(data)
+            renderSpirit(data.ingredients[0])
         }
     })
     .catch(err => {
@@ -82,4 +82,20 @@ function renderDrinks(arr) {
     })
 
     renderSection.innerHTML = drinksToRender
+}
+
+function renderSpirit(spirit) {
+    renderSection.innerHTML = ""
+    console.log(spirit)
+
+    let spiritToRender = `
+        <section class="spirit">
+            <h1>${spirit.strIngredient}</h1>
+            <p class="detail">${spirit.strAlcoholic}</p>
+            <p class="detail">Average: ${spirit.strABV}% ${spirit.strType}</p>
+            <p>${spirit.strDescription}</p>
+        </section>
+    `
+
+    renderSection.innerHTML = spiritToRender
 }
