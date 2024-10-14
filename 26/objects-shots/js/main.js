@@ -1,11 +1,13 @@
-//The user will enter a cocktail. Get a cocktail name, photo, and instructions and place them in the DOM
 const menu = document.getElementById("menu")
-menu.addEventListener("click", testClick)
+const renderSection = document.getElementById("render-area")
 
-// document.querySelector("button").addEventListener("click", getDrink)
-let drinksSection = document.getElementById("drinks")
+// ⬇️ EVENT LISTENERS ⬇️
 
-function testClick(e) {
+menu.addEventListener("click", menuClick)
+
+// ⬇️ EVENT HANDLERS ⬇️
+
+function menuClick(e) {
     // console.log(e.target.id)
     if (e.target.id === "name-btn") {
         console.log("name")
@@ -40,8 +42,10 @@ function getDrink(btn) {
     })
 }
 
+// ⬇️ RENDER FUNCTIONS ⬇️
+
 function renderDrinks(arr) {
-    drinksSection.innerHTML = ""
+    renderSection.innerHTML = ""
     let drinksToRender = ""
 
     arr.map(drink => {
@@ -74,5 +78,5 @@ function renderDrinks(arr) {
         `
     })
 
-    drinksSection.innerHTML = drinksToRender
+    renderSection.innerHTML = drinksToRender
 }

@@ -30,7 +30,7 @@ img{
   border-bottom-right-radius: .5rem;
 }
 
-.drinks {
+.render-area {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
