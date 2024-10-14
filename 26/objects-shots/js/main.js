@@ -29,9 +29,12 @@ function renderDrinks(arr) {
 
         for (let i = 1; i <= 15; i++) {
             if (drink[`strIngredient${i}`] !== null) {
-                console.log(drink[`strMeasure${i}`], drink[`strIngredient${i}`])
+                // console.log(drink[`strMeasure${i}`], drink[`strIngredient${i}`])
+                if (drink[`strMeasure${i}`] === null) {
+                    drink[`strMeasure${i}`] = ""
+                }
                 ingredients += `
-                <p>${drink[`strMeasure${i}`]} ${drink[`strIngredient${i}`]}</p>
+                <p>▹ ${drink[`strMeasure${i}`]} ${drink[`strIngredient${i}`]}</p>
                 `
             }
         }
@@ -41,7 +44,7 @@ function renderDrinks(arr) {
                 <h1>${drink.strDrink}</h1>
                 <p>${drink.strGlass}</p>
                 <h2>Ingredients:</h2>
-                ${ingredients}
+                <section class="ingredients">${ingredients}</section>
                 <p>${drink.strInstructions}</p>
                 <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
             </section>
