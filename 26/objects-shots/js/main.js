@@ -85,6 +85,7 @@ function renderDrinks(arr) {
 }
 
 function renderSpirit(spirit) {
+    console.log(spirit)
     renderSection.innerHTML = ""
     const descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
     const desc = descArr.map(line => `<p>${line}</p>`)
@@ -92,9 +93,9 @@ function renderSpirit(spirit) {
     const spiritToRender = `
         <section class="spirit">
             <h1>${spirit.strIngredient}</h1>
-            <p class="detail">${spirit.strAlcoholic}</p>
-            <p class="detail">Average: ${spirit.strABV}% ${spirit.strType}</p>
-            ${desc}
+            <p class="detail">${spirit.strType}</p>
+            <p class="detail">Average ABV: ${spirit.strABV}%</p>
+            <section class="spirit-desc">${desc}</section>
         </section>
     `
 
