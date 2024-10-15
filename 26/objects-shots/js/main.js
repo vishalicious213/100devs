@@ -9,9 +9,9 @@ menu.addEventListener("click", menuClick)
 
 function menuClick(e) {
     // console.log(e.target.id)
-    if (!e.target.value) {
-        return
-    }
+    // if (!e.target.value) {
+    //     return
+    // }
 
     if (e.target.id === "name-btn") {
         getData("s")
@@ -92,14 +92,19 @@ function renderDrinks(arr) {
 function renderSpirit(spirit) {
     console.log(spirit)
     renderSection.innerHTML = ""
-    const descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
-    const desc = descArr.map(line => `<p>${line}</p>`)
+    let descArr = []
+    let desc = `<p>No description available</p>`
+
+    if (spirit.strDescription) {
+        descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
+        desc = descArr.map(line => `<p>${line}</p>`)
+    }
 
     const spiritToRender = `
         <section class="spirit">
             <h1>${spirit.strIngredient}</h1>
             <p class="detail">${spirit.strType}</p>
-            <p class="detail">Average ABV: ${spirit.strABV}%</p>
+            <p class="detail">Average ABV: ${spirit.strABV ? `${spirit.strABV}%` : "Unknown"}</p>
             <section class="spirit-desc">${desc}</section>
         </section>
     `
