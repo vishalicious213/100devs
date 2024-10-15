@@ -10,7 +10,9 @@ body {
 }
 
 body > h1 {
+  color: #f0ecec;
   margin-left: 1rem;
+  letter-spacing: .1rem;
 }
 
 .drink h1 {
@@ -37,8 +39,12 @@ img {
 /* MENU */
 
 .menu {
-  outline: 1px solid red;
   padding: 1rem;
+}
+
+.menu h2 {
+  color: #f0ecec;
+  letter-spacing: .1rem;
 }
 
 button {
