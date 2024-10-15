@@ -30,11 +30,21 @@ img{
   border-bottom-right-radius: .5rem;
 }
 
+/* MENU */
+
+.menu {
+  outline: 1px solid red;
+}
+
+/* RENDER AREA */
+
 .render-area {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
+
+/* RENDER DRINKS */
 
 .drink {
   background-image: linear-gradient(rgb(240, 236, 236), white);
@@ -44,10 +54,6 @@ img{
   flex-direction: column;
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
-}
-
-.drinks .drink:nth-last-child(1) {
-  margin-left: .5rem;
 }
 
 .container {
@@ -65,9 +71,7 @@ img{
   margin-bottom: .5rem;
 }
 
-.menu {
-  outline: 1px solid red;
-}
+/* RENDER SPIRITS */
 
 .spirit-desc {
   margin-top: 1rem;
@@ -76,6 +80,10 @@ img{
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 480px) {
+  .render-area .drink:nth-last-child(1) {
+    margin-left: .75rem;
+  }
+
   .drink {
     width: 45%;
   }
