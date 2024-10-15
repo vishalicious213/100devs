@@ -45,6 +45,9 @@ img {
 .menu h2 {
   color: #f0ecec;
   letter-spacing: .1rem;
+  margin-top: 1rem;
+  border-top: 1px solid #888888;
+  padding-top: .75rem;
 }
 
 button {
