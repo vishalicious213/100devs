@@ -82,6 +82,7 @@ function renderDrinks(arr) {
     })
 
     renderSection.innerHTML = drinksToRender
+    document.getElementById("search-name").value = ""
 }
 
 function renderSpirit(spirit) {
@@ -100,4 +101,5 @@ function renderSpirit(spirit) {
     `
 
     renderSection.innerHTML = spiritToRender
+    document.getElementById("search-spirit").value = ""
 }
