@@ -9,10 +9,6 @@ menu.addEventListener("click", menuClick)
 
 function menuClick(e) {
     // console.log(e.target.id)
-    // if (!e.target.value) {
-    //     return
-    // }
-
     if (e.target.id === "name-btn") {
         getData("s")
     }
@@ -31,6 +27,10 @@ function getData(btn) {
 
     if (btn === "i") {
         searchTerm = document.getElementById("search-spirit").value
+    }
+
+    if (!searchTerm) {
+        return
     }
 
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?${btn}=${searchTerm}`)
