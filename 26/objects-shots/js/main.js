@@ -86,14 +86,10 @@ function renderDrinks(arr) {
 
 function renderSpirit(spirit) {
     renderSection.innerHTML = ""
-    let descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
-    let desc = descArr.map(line => `<p>${line}</p>`)
+    const descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
+    const desc = descArr.map(line => `<p>${line}</p>`)
 
-    console.log(spirit)
-    console.log(descArr)
-    console.log(desc)
-
-    let spiritToRender = `
+    const spiritToRender = `
         <section class="spirit">
             <h1>${spirit.strIngredient}</h1>
             <p class="detail">${spirit.strAlcoholic}</p>
