@@ -93,8 +93,17 @@ input, select {
 
 /* RENDER SPIRITS */
 
+.spirit {
+  color: #f0ecec;
+  padding: 1rem;
+}
+
 .spirit-desc {
   margin-top: 1rem;
+}
+
+.spirit-desc p {
+  margin-bottom: 1rem;
 }
 
 /* MEDIA QUERIES */

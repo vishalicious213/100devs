@@ -97,7 +97,7 @@ function renderSpirit(spirit) {
 
     if (spirit.strDescription) {
         descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
-        desc = descArr.map(line => `<p>${line}</p>`)
+        desc = descArr.map(line => `<p>${line}</p>`).join("")
     }
 
     const spiritToRender = `
