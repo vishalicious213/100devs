@@ -5,8 +5,12 @@
   font-family: "Raleway", Helvetica, sans-serif;
 }
 
-body > h1, input {
-  margin-left: .5rem;
+body {
+  background: #222f40;
+}
+
+body > h1 {
+  margin-left: 1rem;
 }
 
 .drink h1 {
@@ -23,7 +27,7 @@ p {
   font-size: .9rem;
 }
 
-img{
+img {
   width: 100%;
   margin-top: auto;
   border-bottom-left-radius: .5rem;
@@ -43,7 +47,6 @@ button {
 
 input, select {
   width: 12.5rem;
-  margin-left: 0;
 }
 
 /* RENDER AREA */
@@ -57,19 +60,20 @@ input, select {
 /* RENDER DRINKS */
 
 .drink {
-  background-image: linear-gradient(rgb(240, 236, 236), white);
-  width: 90%;
-  margin: 0 auto 2rem;
   display: flex;
   flex-direction: column;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+  width: 90%;
+  margin: 0 auto 2rem;
 }
 
 .container {
-  padding: .5rem;
   display: flex;
   flex-direction: column;
+  background: #f0ecec;
+  height: 100%;
+  padding: .5rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 .detail {
