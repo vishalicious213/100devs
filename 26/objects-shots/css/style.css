@@ -34,6 +34,16 @@ img{
 
 .menu {
   outline: 1px solid red;
+  padding: 1rem;
+}
+
+button {
+  width: 4rem;
+}
+
+input, select {
+  width: 12.5rem;
+  margin-left: 0;
 }
 
 /* RENDER AREA */
