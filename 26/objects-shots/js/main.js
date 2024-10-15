@@ -9,6 +9,10 @@ menu.addEventListener("click", menuClick)
 
 function menuClick(e) {
     // console.log(e.target.id)
+    if (!e.target.value) {
+        return
+    }
+
     if (e.target.id === "name-btn") {
         getData("s")
     }
