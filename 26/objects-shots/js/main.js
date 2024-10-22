@@ -21,7 +21,7 @@ function menuClick(e) {
         getData("s")
     }
 
-    if (e.target.id === "spirit-btn") {
+    if (e.target.id === "ingredient-btn") {
         getData("i")
     }
 }
@@ -49,7 +49,7 @@ function getData(btn) {
         }
     
         if (btn === "i") {
-            renderSpirit(data.ingredients[0])
+            renderIngredient(data.ingredients[0])
         }
     })
     .catch(err => {
@@ -114,25 +114,25 @@ function renderDrinks(arr) {
     document.getElementById("search-name").value = ""
 }
 
-function renderSpirit(spirit) {
+function renderIngredient(ingredient) {
     renderSection.innerHTML = ""
     let descArr = []
     let desc = `<p>No description available</p>`
 
-    if (spirit.strDescription) {
-        descArr = spirit.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
+    if (ingredient.strDescription) {
+        descArr = ingredient.strDescription.split(/\r?\n/).filter(line => line.trim() !== "")
         desc = descArr.map(line => `<p>${line}</p>`).join("")
     }
 
-    const spiritToRender = `
-        <section class="spirit">
-            <h1>${spirit.strIngredient}</h1>
-            <p class="detail">${spirit.strType}</p>
-            <p class="detail">Average ABV: ${spirit.strABV ? `${spirit.strABV}%` : "Unknown"}</p>
-            <section class="spirit-desc">${desc}</section>
+    const ingredientToRender = `
+        <section class="ingredient">
+            <h1>${ingredient.strIngredient}</h1>
+            <p class="detail">${ingredient.strType}</p>
+            <p class="detail">Average ABV: ${ingredient.strABV ? `${ingredient.strABV}%` : "Unknown"}</p>
+            <section class="ingredient-desc">${desc}</section>
         </section>
     `
 
-    renderSection.innerHTML = spiritToRender
+    renderSection.innerHTML = ingredientToRender
     document.getElementById("search-ingredient").value = ""
 }

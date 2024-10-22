@@ -120,18 +120,18 @@ input, select {
   margin-bottom: .5rem;
 }
 
-/* RENDER SPIRITS */
+/* RENDER INGREDIENTS */
 
-.spirit {
+.ingredient {
   color: #f0ecec;
   padding: 1rem;
 }
 
-.spirit-desc {
+.ingredient-desc {
   margin-top: 1rem;
 }
 
-.spirit-desc p {
+.ingredient-desc p {
   margin-bottom: 1rem;
 }
 
