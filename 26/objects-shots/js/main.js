@@ -78,12 +78,12 @@ function renderMenu(item) {
 
 function renderDrinks(arr) {
     renderSection.innerHTML = ""
-    let drinksToRender = ""
+    let drinksToRender = []
 
     arr.map(drink => {
         let ingredients = ""
 
-        for (let i = 1; i <= arr.length; i++) {
+        for (let i = 1; i <= 15; i++) {
             if (drink[`strIngredient${i}`] !== null) {
                 if (drink[`strMeasure${i}`] === null) {
                     drink[`strMeasure${i}`] = ""
@@ -94,7 +94,7 @@ function renderDrinks(arr) {
             }
         }
 
-        drinksToRender += `
+        drinksToRender.push(`
             <section class="drink">
                 <div class="container">
                     <h1>${drink.strDrink}</h1>
@@ -107,8 +107,8 @@ function renderDrinks(arr) {
                 </div>
                 <img src=${drink.strDrinkThumb} alt=${drink.strDrink}>
             </section>
-        `
-    })
+        `)
+    }).join("")
 
     renderSection.innerHTML = drinksToRender
     document.getElementById("search-name").value = ""
