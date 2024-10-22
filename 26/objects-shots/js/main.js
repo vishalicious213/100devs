@@ -64,11 +64,13 @@ function renderMenu(item) {
     const menuIngredient = document.getElementById("search-ingredient-container")
 
     if (item === "cocktail") {
-        console.log("cocktail")
+        menuCocktail.classList.remove("hidden")
+        menuIngredient.classList.add("hidden")
     }
 
     if (item === "ingredient") {
-        console.log("ingredient")
+        menuCocktail.classList.add("hidden")
+        menuIngredient.classList.remove("hidden")
     }
 }
 
