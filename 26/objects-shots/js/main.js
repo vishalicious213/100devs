@@ -34,7 +34,7 @@ function getData(btn) {
     }
 
     if (btn === "i") {
-        searchTerm = document.getElementById("search-spirit").value
+        searchTerm = document.getElementById("search-ingredient").value
     }
 
     if (!searchTerm) {
@@ -72,6 +72,8 @@ function renderMenu(item) {
         menuCocktail.classList.add("hidden")
         menuIngredient.classList.remove("hidden")
     }
+
+    renderSection.innerHTML = ""
 }
 
 function renderDrinks(arr) {
@@ -81,7 +83,7 @@ function renderDrinks(arr) {
     arr.map(drink => {
         let ingredients = ""
 
-        for (let i = 1; i <= 15; i++) {
+        for (let i = 1; i <= arr.length; i++) {
             if (drink[`strIngredient${i}`] !== null) {
                 if (drink[`strMeasure${i}`] === null) {
                     drink[`strMeasure${i}`] = ""
@@ -132,5 +134,5 @@ function renderSpirit(spirit) {
     `
 
     renderSection.innerHTML = spiritToRender
-    document.getElementById("search-spirit").value = ""
+    document.getElementById("search-ingredient").value = ""
 }
