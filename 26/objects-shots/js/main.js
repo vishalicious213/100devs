@@ -1,6 +1,4 @@
 const menu = document.getElementById("menu")
-const menuCocktail = document.getElementById("search-name-container")
-const menuIngredient = document.getElementById("search-ingredient-container")
 const renderSection = document.getElementById("render-area")
 
 // ⬇️ EVENT LISTENERS ⬇️
@@ -12,11 +10,11 @@ menu.addEventListener("click", menuClick)
 function menuClick(e) {
     // console.log(e.target.id)
     if (e.target.id === "menu-cocktail") {
-        console.log("cocktail")
+        renderMenu("cocktail")
     }
 
     if (e.target.id === "menu-ingredient") {
-        console.log("ingredient")
+        renderMenu("ingredient")
     }
 
     if (e.target.id === "name-btn") {
@@ -60,6 +58,19 @@ function getData(btn) {
 }
 
 // ⬇️ RENDER FUNCTIONS ⬇️
+
+function renderMenu(item) {
+    const menuCocktail = document.getElementById("search-name-container")
+    const menuIngredient = document.getElementById("search-ingredient-container")
+
+    if (item === "cocktail") {
+        console.log("cocktail")
+    }
+
+    if (item === "ingredient") {
+        console.log("ingredient")
+    }
+}
 
 function renderDrinks(arr) {
     renderSection.innerHTML = ""
