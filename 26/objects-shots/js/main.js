@@ -90,7 +90,6 @@ function renderDrinks(arr) {
 }
 
 function renderSpirit(spirit) {
-    console.log(spirit)
     renderSection.innerHTML = ""
     let descArr = []
     let desc = `<p>No description available</p>`
