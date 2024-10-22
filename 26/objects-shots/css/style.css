@@ -57,6 +57,7 @@ menu {
   background: #f0ecec;
   color: #222f40;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .menu {
