@@ -79,9 +79,11 @@ function renderMenu(item) {
 function renderDrinks(arr) {
     renderSection.innerHTML = ""
     let drinksToRender = []
+    let drinkIds = []
 
     arr.map(drink => {
         let ingredients = ""
+        drinkIds.push(drink.idDrink)
 
         for (let i = 1; i <= 15; i++) {
             if (drink[`strIngredient${i}`] !== null) {
@@ -112,6 +114,7 @@ function renderDrinks(arr) {
 
     renderSection.innerHTML = drinksToRender
     document.getElementById("search-name").value = ""
+    console.log(drinkIds)
 }
 
 function renderIngredient(ingredient) {
