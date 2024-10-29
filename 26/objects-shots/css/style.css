@@ -87,9 +87,13 @@ input, select {
 /* RENDER AREA */
 
 .render-area {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 1rem; */
+  position: relative;
+  outline: 1px solid red;
+  width: 98%;
+  margin: 0 auto;
 }
 
 /* RENDER DRINKS */
