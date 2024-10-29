@@ -95,7 +95,7 @@ function renderDrinks(arr) {
         }
 
         drinksToRender.push(`
-            <section class="drink">
+            <section id=${drink.idDrink} class="drink">
                 <div class="container">
                     <h1>${drink.strDrink}</h1>
                     <p class="detail">${drink.strCategory}</p>
