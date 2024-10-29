@@ -127,6 +127,16 @@ input, select {
   margin-bottom: .5rem;
 }
 
+/* RENDER SLIDER CONTROLS */
+
+.drink-ids {
+  display: flex;
+  color: #f0ecec;
+  justify-content: space-between;
+  width: 5rem;
+  margin: 0 auto;
+}
+
 /* RENDER INGREDIENTS */
 
 .ingredient {

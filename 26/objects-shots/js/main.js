@@ -1,9 +1,11 @@
 const menu = document.getElementById("menu")
 const renderSection = document.getElementById("render-area")
+const drinkIdSection = document.getElementById("drink-ids")
 
 // ⬇️ EVENT LISTENERS ⬇️
 
 menu.addEventListener("click", menuClick)
+drinkIdSection.addEventListener("click", sliderClick)
 
 // ⬇️ EVENT HANDLERS ⬇️
 
@@ -55,6 +57,17 @@ function getData(btn) {
     .catch(err => {
         console.log(`error ${err}`)
     })
+}
+
+function sliderClick(e) {
+    if (e.target.id === "prev") {
+        console.log("prev")
+    }
+
+    if (e.target.id === "next") {
+        console.log("next")
+    }
+
 }
 
 // ⬇️ RENDER FUNCTIONS ⬇️
@@ -114,7 +127,14 @@ function renderDrinks(arr) {
 
     renderSection.innerHTML = drinksToRender
     document.getElementById("search-name").value = ""
-    console.log(drinkIds)
+    renderSlider(drinkIds)
+}
+
+function renderSlider(arr) {
+    console.log(arr)
+    drinkIdSection.innerHTML = ""
+
+
 }
 
 function renderIngredient(ingredient) {
