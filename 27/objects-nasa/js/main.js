@@ -12,7 +12,11 @@ function getFetch() {
         .then(res => res.json())
         .then(data => {
             console.log(data)
-            document.querySelector("img").src = data.hdurl
+            if (data.media_type === "image") {
+                document.querySelector("img").src = data.hdurl
+            } else if (data.media_type === "video") {
+                document.querySelector("iframe").src = data.url
+            }
             document.querySelector("h3").innerText = data.explanation
         })
         .catch(err => {
