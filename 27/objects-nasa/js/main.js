@@ -20,6 +20,7 @@ function getFetch() {
             } else if (data.media_type === "video") {
                 displayArea.innerHTML = `<iframe src=${data.url} frameborder="0"></iframe>`
             }
+            document.querySelector("h2").innerText = data.title
             document.querySelector("h3").innerText = data.explanation
         })
         .catch(err => {
