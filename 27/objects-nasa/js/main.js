@@ -16,7 +16,7 @@ function getFetch() {
         .then(data => {
             console.log(data)
             if (data.media_type === "image") {
-                displayArea.innerHTML = `<img src=${data.hdurl} alt=${data.title}>`
+                displayArea.innerHTML = `<img src=${data.url} alt=${data.title}>`
             } else if (data.media_type === "video") {
                 displayArea.innerHTML = `<iframe src=${data.url} frameborder="0"></iframe>`
             }
