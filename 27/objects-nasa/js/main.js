@@ -13,12 +13,9 @@ function getFetch(imgType) {
     const choice = document.querySelector("input").value
     const url = `https://api.nasa.gov/planetary/apod?api_key=Lea6kv8YlTX0NdR7fxQaRmRUWbKp04jdw0CPZB8X&date=${choice}`
 
-    console.log(choice, imgType)
-
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            console.log(data)
             if (data.media_type === "image") {
                 imgType = "sd" 
                     ? displayArea.innerHTML = `<img src=${data.url} alt=${data.title}>`
