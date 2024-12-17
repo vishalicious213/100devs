@@ -1,7 +1,7 @@
 //The user will enter a date. Use that date to get the NASA picture of the day from that date! https://api.nasa.gov/
 
-const displayArea = document.querySelector("section")
-document.querySelector("button").addEventListener("click", getFetch)
+const displayArea = document.querySelector("#display-area")
+document.querySelector("#buttons").addEventListener("click", getFetch)
 
 displayArea.innerHTML = ""
 
