@@ -1,13 +1,14 @@
-//The user will enter a date. Use that date to get the NASA picture of the day from that date! https://api.nasa.gov/
-
 const displayArea = document.querySelector("#display-area")
 const button = document.querySelector("#buttons")
+displayArea.innerHTML = ""
+
+// ⬇️ EVENT LISTENERS ⬇️
 
 button.addEventListener("click", function(e) {
     getFetch(e.target.id)
 })
 
-displayArea.innerHTML = ""
+// ⬇️ EVENT HANDLERS ⬇️
 
 function getFetch(imgType) {
     const choice = document.querySelector("input").value
