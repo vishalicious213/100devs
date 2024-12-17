@@ -1,6 +1,7 @@
 const menu = document.getElementById("menu")
 const renderSection = document.getElementById("render-area")
 const drinkIdSection = document.getElementById("drink-ids")
+let drinkIds = []
 
 // ⬇️ EVENT LISTENERS ⬇️
 
@@ -92,7 +93,7 @@ function renderMenu(item) {
 function renderDrinks(arr) {
     renderSection.innerHTML = ""
     let drinksToRender = []
-    let drinkIds = []
+    drinkIds = []
 
     arr.map(drink => {
         let ingredients = ""
