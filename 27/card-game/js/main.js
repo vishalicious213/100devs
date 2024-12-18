@@ -29,6 +29,8 @@ function drawTwo(){
       } else if (player1Val < player2Val) {
         document.querySelector("h3").innerText = `Player 2 Wins`
       } else document.querySelector("h3").innerText = `Time for WAR!`
+
+      document.querySelector("#cards-left").innerText = `${data.remaining} cards left`
     })
     .catch(err => {
       console.log(`error ${err}`)
