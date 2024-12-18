@@ -25,10 +25,10 @@ function drawTwo(){
       let player2Val = convertToNum(data.cards[1].value)
 
       if (player1Val > player2Val) {
-        document.querySelector("h3").innerText = `Player 1 Wins`
+        document.querySelector("h2").innerText = `Player 1 Wins`
       } else if (player1Val < player2Val) {
-        document.querySelector("h3").innerText = `Player 2 Wins`
-      } else document.querySelector("h3").innerText = `Time for WAR!`
+        document.querySelector("h2").innerText = `Player 2 Wins`
+      } else document.querySelector("h2").innerText = `Time for WAR!`
 
       document.querySelector("#cards-left").innerText = `${data.remaining}`
     })
