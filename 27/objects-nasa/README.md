@@ -1,0 +1,2 @@
+- NASA Media of the Day deployed at: https://vish213-nasapic.netlify.app/
+- Repo available at: https://github.com/vishalicious213/nasa-pics
