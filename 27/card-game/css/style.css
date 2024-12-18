@@ -8,6 +8,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: green;
+  background-image: url("/img/table.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1, h2, h3 {
@@ -22,6 +28,15 @@ img {
 
 #controls {
   display: flex;
-  width: 200px;
+  width: 70%;
+  max-width: 225px;
   justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: gold;
+  outline: none;
+  border: none;
+  padding: .25rem 1rem;
 }
