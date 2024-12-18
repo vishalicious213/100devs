@@ -19,6 +19,8 @@ function drawTwo(){
     .then(res => res.json())
     .then(data => {
       console.log(data)
+      document.querySelector("#player1").src = data.cards[0].image
+      document.querySelector("#player2").src = data.cards[1].image
     })
     .catch(err => {
       console.log(`error ${err}`)
