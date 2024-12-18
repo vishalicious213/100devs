@@ -1,6 +1,7 @@
 let deckId = ""
 
-document.querySelector('button').addEventListener('click', drawTwo)
+document.querySelector('#deal').addEventListener('click', drawTwo)
+document.querySelector('#over').addEventListener('click', newGame)
 
 function getDeckId() {
   fetch(`https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1`)
@@ -31,6 +32,10 @@ function drawTwo(){
       } else document.querySelector("h2").innerText = `Time for WAR!`
 
       document.querySelector("#cards-left").innerText = `${data.remaining}`
+
+      if (data.remaining === 0) {
+        document.querySelector("#over").innerHTML = `<button>New Game</button>`
+      }
     })
     .catch(err => {
       console.log(`error ${err}`)
