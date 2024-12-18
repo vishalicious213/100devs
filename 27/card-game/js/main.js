@@ -56,4 +56,8 @@ function convertToNum(val) {
   }
 }
 
+function newGame() {
+  location.reload()
+}
+
 getDeckId()
