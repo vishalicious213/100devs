@@ -22,10 +22,12 @@ h1, h2, h3 {
   margin: 1rem 0;
 }
 
+h2 {
+  margin-top: 2rem;
+}
+
 img {
-  display: block;
-  margin: 0 auto;
-  width: 150px;
+  width: 100px;
 }
 
 #controls {
@@ -46,6 +48,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  background: #fdf4be;
 }
 
 p {
@@ -57,4 +60,16 @@ p {
 
 span {
   font-weight: 600;
+}
+
+.player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  max-width: 225px;
+  margin-top: 2rem;
+  border: 1px solid #ffd900a1;
+  border-radius: .5rem;
+  padding: 1rem .5rem;
 }
