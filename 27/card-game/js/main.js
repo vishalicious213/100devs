@@ -30,7 +30,7 @@ function drawTwo(){
         document.querySelector("h3").innerText = `Player 2 Wins`
       } else document.querySelector("h3").innerText = `Time for WAR!`
 
-      document.querySelector("#cards-left").innerText = `${data.remaining} cards left`
+      document.querySelector("#cards-left").innerText = `${data.remaining}`
     })
     .catch(err => {
       console.log(`error ${err}`)
