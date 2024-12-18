@@ -73,3 +73,7 @@ span {
   border-radius: .5rem;
   padding: 1rem .5rem;
 }
+
+.no-click {
+  pointer-events: none;
+}

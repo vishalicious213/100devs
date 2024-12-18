@@ -33,6 +33,7 @@ function drawTwo(){
 
       if (data.remaining === 0) {
         document.querySelector("#over").innerHTML = `<button>New Game</button>`
+        document.querySelector("#deal").classList.add("no-click")
       }
     })
     .catch(err => {
