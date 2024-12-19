@@ -1,0 +1,2 @@
+- WAR Card Game deployed at: https://vish213-war-cards.netlify.app/
+- Repo available at: https://github.com/vishalicious213/war-cards
