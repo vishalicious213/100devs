@@ -25,7 +25,7 @@ function makeMove(event) {
 function score() {
     console.log(board)
 
-    // horizontal
+    // X horizontal
     if (board[0] === "x" && board[1] === "x" && board[2] === "x") {
         console.log("X wins!")
     } else if (board[3] === "x" && board[4] === "x" && board[5] === "x") {
@@ -34,7 +34,7 @@ function score() {
         console.log("X wins!")
     }
 
-    // vertical
+    // X vertical
     if (board[0] === "x" && board[3] === "x" && board[6] === "x") {
         console.log("X wins!")
     } else if (board[1] === "x" && board[4] === "x" && board[7] === "x") {
@@ -43,7 +43,14 @@ function score() {
         console.log("X wins!")
     }
 
-    // horizontal
+    // X diagonal
+    if (board[0] === "x" && board[4] === "x" && board[8] === "x") {
+        console.log("X wins!")
+    } else if (board[2] === "x" && board[4] === "x" && board[6] === "x") {
+        console.log("X wins!")
+    }
+
+    // O horizontal
     if (board[0] === "o" && board[1] === "o" && board[2] === "o") {
         console.log("O wins!")
     } else if (board[3] === "o" && board[4] === "o" && board[5] === "o") {
@@ -52,7 +59,7 @@ function score() {
         console.log("O wins!")
     }
 
-    // vertical
+    // O vertical
     if (board[0] === "o" && board[3] === "o" && board[6] === "o") {
         console.log("O wins!")
     } else if (board[1] === "o" && board[4] === "o" && board[7] === "o") {
@@ -61,4 +68,10 @@ function score() {
         console.log("O wins!")
     }
 
+    // O diagonal
+    if (board[0] === "o" && board[4] === "o" && board[8] === "o") {
+        console.log("O wins!")
+    } else if (board[2] === "o" && board[4] === "o" && board[6] === "o") {
+        console.log("O wins!")
+    }
 }
