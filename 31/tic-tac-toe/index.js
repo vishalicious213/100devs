@@ -78,7 +78,6 @@ function score() {
     }
 
     if (winner !== "") {
-        console.log("GAME OVER")
         const winner_element = document.getElementById("winner")
         const button = document.querySelector("button")
 
