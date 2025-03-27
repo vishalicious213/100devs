@@ -1,8 +1,10 @@
-console.log("Tic Tac Toe")
-
 let move = 0
 let winner = ""
 let board = ["","","","","","","","",""]
+
+function newGame() {
+    location.reload()
+}
 
 function makeMove(event) {
     if (winner !== "") {
@@ -78,6 +80,9 @@ function score() {
     if (winner !== "") {
         console.log("GAME OVER")
         const winner_element = document.getElementById("winner")
+        const button = document.querySelector("button")
+
+        button.classList.remove("hidden")
 
         if (winner === "x") {
             winner_element.innerText = "X is the winner!"
