@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+div {
+    border: 1px solid black;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
