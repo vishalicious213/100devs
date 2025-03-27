@@ -77,5 +77,12 @@ function score() {
 
     if (winner !== "") {
         console.log("GAME OVER")
+        const winner_element = document.getElementById("winner")
+
+        if (winner === "x") {
+            winner_element.innerText = "X is the winner!"
+        } else {
+            winner_element.innerText = "O is the winner!"
+        }
     }
 }
