@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #1c1c1c;
+    color: #f5f5f5;
 }
 
 main {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 5rem;
+    gap: .25rem;
 }
 
 .row {
     display: flex;
     margin: auto;
+    gap: .25rem;
 }
 
 div {
@@ -24,4 +28,11 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    background: #808080;
+}
+
+div:hover {
+    background: #a9a9a9;
+    color: #ffffff;
 }
