@@ -8,6 +8,10 @@ function makeMove(event) {
     console.log(event.target.id, move)
     console.log(event.target.innerText)
 
+    if (winner !== "") {
+        return
+    }
+
     if (event.target.innerText === "") {
         move++
 
