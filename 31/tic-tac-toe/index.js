@@ -89,4 +89,12 @@ function score() {
             winner_element.innerText = "O is the winner!"
         }
     }
+
+    if (winner === "" && move > 8) {
+        const winner_element = document.getElementById("winner")
+        const button = document.querySelector("button")
+
+        button.classList.remove("hidden")
+        winner_element.innerText = "Tie game!"
+    }
 }
