@@ -9,6 +9,10 @@ const server = http.createServer((req, res) => {
 	const params = querystring.parse(url.parse(req.url).query)
 	console.log("Page", page)
 
+	function coinFlip() {
+		return Math.ceil(Math.random() * 2) === 1 ? 'heads' : 'tails'
+	}
+
 	if (page == '/') {
 		fs.readFile('index.html', function(err, data) {
 			res.writeHead(200, {'Content-Type': 'text/html'})
@@ -40,7 +44,8 @@ const server = http.createServer((req, res) => {
 				const objToJson = {
 					name: "leon",
 					status: "Boss Man",
-					currentOccupation: "Baller"
+					currentOccupation: "Baller",
+					coinFlip: coinFlip()
 				}
 				res.end(JSON.stringify(objToJson))
 			}//student = leon
@@ -49,7 +54,8 @@ const server = http.createServer((req, res) => {
 				const objToJson = {
 					name: "unknown",
 					status: "unknown",
-					currentOccupation: "unknown"
+					currentOccupation: "unknown",
+					coinFlip: coinFlip()
 				}
 				res.end(JSON.stringify(objToJson))
 			}//student != leon
