@@ -1,8 +1,8 @@
-const http = require('http')
-const fs = require('fs')
-const url = require('url')
-const querystring = require('querystring')
-const figlet = require('figlet')
+const http = require('http') // look at requests, respond to requests, create server, listen to port 
+const fs = require('fs') // read files, write files, create files, delete files, etc.
+const url = require('url') // parse the url, query string, etc.
+const querystring = require('querystring') // parse the query string, create a query string, etc.
+const figlet = require('figlet') // create ascii art from text
 
 const server = http.createServer((req, res) => {
 	const page = url.parse(req.url).pathname
